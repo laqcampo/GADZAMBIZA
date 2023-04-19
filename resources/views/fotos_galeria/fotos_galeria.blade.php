@@ -22,7 +22,7 @@
 
     <style>
     body {
-        background-image: url("https://s3.amazonaws.com/businessinsider.mx/wp-content/uploads/2020/06/30182348/jay-wennington-loAgTdeDcIU-unsplash-1-1280x620.jpg");
+        background-image: url("https://img.freepik.com/foto-gratis/fondo-degradado-vino-tinto_53876-104119.jpg");
         background-size: 100% 100%;
         background-attachment: fixed;
     }
@@ -276,159 +276,77 @@
     <div class="container">
         <div class="row">
             <div class="col s12">
-                <h1 class="center-align titulo">FOTOS DE GALERÍAS</h1>
+                <h1 class="center-align titulo">GALERÍA</h1>
             </div>
 
             <div class="carousel center-align">
                 <div class="carousel-item">
-                    <h2 class="subtitulo">Naturaleza</h2>
+                    <!-- <h2 class="subtitulo">PARQUE CENTRAL</h2>
                     <div class="linea-division"></div>
-                    <p class="sabor">Zambiza</p>
-                    <img src="https://www.gadzambiza.gob.ec/wp-content/uploads/2022/03/zam_13-rotated-800x1204.jpg"
+                    <p class="sabor">Zambiza</p> -->
+                    <img src="https://pbs.twimg.com/media/DM1ZT9_W0AMB6M-.jpg"
                         width="400" alt="">
                 </div>
 
                 <div class="carousel-item">
-                    <h2 class="subtitulo">Cultura</h2>
+                    <!-- <h2 class="subtitulo">Cultura</h2>
                     <div class="linea-division"></div>
-                    <p class="sabor">Zambiza</p>
-                    <img src="https://www.gadzambiza.gob.ec/wp-content/uploads/2022/03/zam_09-rotated-800x1204.jpg"
-                        width="400" alt="">
-                </div>
-
-
-                <div class="carousel-item">
-                    <h2 class="subtitulo">Vacacionales</h2>
-                    <div class="linea-division"></div>
-                    <p class="sabor">Zambiza</p>
-                    <img src="https://www.gadzambiza.gob.ec/wp-content/uploads/2022/08/20220801_110119-scaled-800x360.jpg"
-                        alt="">
-                </div>
-
-
-                <div class="carousel-item">
-                    <h2 class="subtitulo">Fiestas</h2>
-                    <div class="linea-division"></div>
-                    <p class="sabor">Zambiza</p>
-                    <img src="https://www.gadzambiza.gob.ec/wp-content/uploads/2022/03/zam_07-800x531.jpg" width="400"
-                        alt="">
-                </div>
-
-                <div class="carousel-item">
-                    <h2 class="subtitulo">Eventos</h2>
-                    <div class="linea-division"></div>
-                    <p class="sabor">Zambiza</p>
-                    <img src="https://www.gadzambiza.gob.ec/wp-content/uploads/2022/08/IMG-20200211-WA0037-800x450.jpg"
-                        width="400" alt="">
-                </div>
-
-                <div class="carousel-item">
-                    <h2 class="subtitulo">Naturaleza</h2>
-                    <div class="linea-division"></div>
-                    <p class="sabor">Zambiza</p>
-                    <img src="https://www.gadzambiza.gob.ec/wp-content/uploads/2022/03/zam_11-800x531.jpg" width="400"
-                        alt="">
-                </div>
-
-                <div class="carousel-item">
-                    <h2 class="subtitulo">Vacacionales</h2>
-                    <div class="linea-division"></div>
-                    <p class="sabor">Zambiza</p>
-                    <img src="https://www.gadzambiza.gob.ec/wp-content/uploads/2022/08/20220801_115155-scaled-800x360.jpg"
-                        width="400" alt="">
-                </div>
-
-                <div class="carousel-item">
-                    <h2 class="subtitulo">Fiestas</h2>
-                    <div class="linea-division"></div>
-                    <p class="sabor">Zambiza</p>
-                    <img src="https://www.gadzambiza.gob.ec/wp-content/uploads/2022/03/zam_08-800x531.jpg" width="400"
-                        alt="">
-                </div>
-
-                <div class="carousel-item">
-                    <h2 class="subtitulo">Vacacionales</h2>
-                    <div class="linea-division"></div>
-                    <p class="sabor">Zambiza</p>
-                    <img src="https://www.gadzambiza.gob.ec/wp-content/uploads/2022/08/20220801_111411-scaled-800x360.jpg"
-                        width="400" alt="">
-                </div>
-
-                <div class="carousel-item">
-                    <h2 class="subtitulo">Fiestas</h2>
-                    <div class="linea-division"></div>
-                    <p class="sabor">Zambiza</p>
-                    <img src="https://www.gadzambiza.gob.ec/wp-content/uploads/2022/03/zam_06-800x531.jpg" width="400"
-                        alt="">
-                </div>
-
-                <div class="carousel-item">
-                    <h2 class="subtitulo">Vacacionales</h2>
-                    <div class="linea-division"></div>
-                    <p class="sabor">Zambiza</p>
-                    <img src="https://www.gadzambiza.gob.ec/wp-content/uploads/2022/03/zam_10-800x531.jpg" width="400"
-                        alt="">
-                </div>
-
-
-                <div class="carousel-item">
-                    <h2 class="subtitulo">Fiestas</h2>
-                    <div class="linea-division"></div>
-                    <p class="sabor">Zambiza</p>
-                    <img src="https://www.gadzambiza.gob.ec/wp-content/uploads/2022/03/zam_03-800x531.jpg" width="400"
-                        alt="">
-                </div>
-
-                <div class="carousel-item">
-                    <h2 class="subtitulo">Cultura</h2>
-                    <div class="linea-division"></div>
-                    <p class="sabor">Zambiza</p>
-                    <img src="https://www.gadzambiza.gob.ec/wp-content/uploads/2022/03/zam_02-rotated-800x1204.jpg"
+                    <p class="sabor">Zambiza</p> -->
+                    <img src="https://static.wixstatic.com/media/6cebd1_836cc7c84f374591b07df2caf2b9720b~mv2.jpg/v1/fill/w_797,h_797,al_c,q_85,enc_auto/6cebd1_836cc7c84f374591b07df2caf2b9720b~mv2.jpg"
                         width="400" alt="">
                 </div>
 
 
                 <div class="carousel-item">
-                    <h2 class="subtitulo">Fiestas</h2>
+                    <!-- <h2 class="subtitulo">Vacacionales</h2>
                     <div class="linea-division"></div>
-                    <p class="sabor">Zambiza</p>
-                    <img src="https://www.gadzambiza.gob.ec/wp-content/uploads/2022/03/zam_05-800x531.jpg" width="400"
+                    <p class="sabor">Zambiza</p> -->
+                    <img src="https://static.wixstatic.com/media/6cebd1_169b0ce313d74f3faefba3781e6fd388~mv2.jpeg/v1/crop/x_621,y_7,w_659,h_382/fill/w_605,h_351,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/PORTADA.jpeg"
+                        alt="">
+                </div>
+
+
+                <div class="carousel-item">
+                    <!-- <h2 class="subtitulo">Fiestas</h2>
+                    <div class="linea-division"></div>
+                    <p class="sabor">Zambiza</p> -->
+                    <img src="https://www.elcomercio.com/wp-content/uploads/2022/04/feria-zambiza-700x391.png" width="400"
                         alt="">
                 </div>
 
                 <div class="carousel-item">
-                    <h2 class="subtitulo">Cultura</h2>
+                    <!-- <h2 class="subtitulo">Fiestas</h2>
                     <div class="linea-division"></div>
-                    <p class="sabor">Zambiza</p>
-                    <img src="https://www.gadzambiza.gob.ec/wp-content/uploads/2022/03/zam_12-800x640.jpg" width="400"
+                    <p class="sabor">Zambiza</p> -->
+                    <img src="https://d1ralsognjng37.cloudfront.net/44437080-edb1-48c3-8028-61fda36108d4.jpeg" width="400"
                         alt="">
                 </div>
 
                 <div class="carousel-item">
-                    <h2 class="subtitulo">Fiestas</h2>
+                    <!-- <h2 class="subtitulo">Fiestas</h2>
                     <div class="linea-division"></div>
-                    <p class="sabor">Zambiza</p>
-                    <img src="https://www.gadzambiza.gob.ec/wp-content/uploads/2022/03/zam_01-800x531.jpg" width="400"
+                    <p class="sabor">Zambiza</p> -->
+                    <img src="https://zonales.quito.gob.ec/wp-content/uploads/WhatsApp-Image-2022-08-21-at-7.45.21-PM-450x250.jpeg" width="400"
                         alt="">
                 </div>
 
                 <div class="carousel-item">
-                    <h2 class="subtitulo">Fiestas</h2>
+                    <!-- <h2 class="subtitulo">Fiestas</h2>
                     <div class="linea-division"></div>
-                    <p class="sabor">Zambiza</p>
-                    <img src="https://www.gadzambiza.gob.ec/wp-content/uploads/2022/03/zam_04-800x531.jpg" width="400"
+                    <p class="sabor">Zambiza</p> -->
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Mapa_Parroquia_Z%C3%A1mbiza_%28Quito%29.svg/1200px-Mapa_Parroquia_Z%C3%A1mbiza_%28Quito%29.svg.png" width="400"
                         alt="">
                 </div>
 
                 <div class="carousel-item">
-                    <h2 class="subtitulo">Obras</h2>
+                    <!-- <h2 class="subtitulo">Fiestas</h2>
                     <div class="linea-division"></div>
-                    <p class="sabor">Zambiza</p>
-                    <img src="https://www.gadzambiza.gob.ec/wp-content/uploads/2022/08/WhatsApp-Image-2022-08-05-at-9.04.12-AM-800x449.jpeg"
-                        width="400" alt="">
+                    <p class="sabor">Zambiza</p> -->
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTww1129eDqH54mki5DfEQhwFo9NJjmwT-8Yg&usqp=CAU" width="400"
+                        alt="">
                 </div>
 
-
+                
 
 
             </div>
