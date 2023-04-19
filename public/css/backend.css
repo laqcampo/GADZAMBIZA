@@ -34,7 +34,7 @@ body{
     grid-template-columns: repeat(2, 1fr);
 }
 .contact-form{
-    background-color:  #0781b6;
+    background-color:  #370813e4;
     position: relative;
 }
 .contact-form::before{
@@ -42,7 +42,7 @@ body{
     position: absolute;
     width: 26px;
     height: 26px;
-    background-color:#0781b6;
+    background-color:#ffffff;
     transform: rotate(45deg);
     top: 50px;
     left: -13px;
@@ -91,7 +91,7 @@ textarea.contact_input{
     background-color: white;
     border: 2px solid #fafafa;
     font-size: 0.95rem;
-    color: #0781b6;
+    color: #000000;
     line-height: 1;
     border-radius: 20px;
     outline: none;
@@ -108,7 +108,7 @@ textarea.contact_input{
     position: relative;
 }
 .contact-info .contact_tittle{
-    color: #0781b6;
+    color: #370813e4;
 }
 .contact-info .contact_text{
     color: black;
@@ -124,7 +124,7 @@ textarea.contact_input{
 .contact_information i{
     width: 28px;
     margin-right: 0.9rem;
-    color: #0781b6;
+    color: #370813e4;
 }
 .contact_information p{
     margin-top: 0;
