@@ -107,7 +107,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-md-3 col-sm-6 mb-3 text-center">
+<!--         <div class="col-md-3 col-sm-6 mb-3 text-center">
             <div class="single-content_service">
                 <div class="service">
                     <i class="fas fa-thumbs-up fa-4x"></i>
@@ -116,7 +116,7 @@
                     <a href="" class="btn_modal_wel mt-5" data-toggle="modal" data-target=".bd-example-modal-xl">Ver mas</a>          
                 </div>
             </div>
-        </div>
+        </div> -->
     </div>
 </div>
 @endsection
@@ -197,7 +197,7 @@
     </div>
 </div>
 @endsection
-@section('title2')
+<!-- @section('title2')
 <div class="col-12">
 		<div class="testimonial-title">
 			<h5>CONOCE</h5>
@@ -237,7 +237,7 @@
       </div>
     @endforeach 
 </div>
-@endsection
+@endsection -->
 
 @section('footer')
 <footer class="footer">
@@ -292,7 +292,7 @@
 <div class="col-12">
 		<div class="testimonial-title">
 			<h5>CONOCE</h5>
-            <h3>NUESTRAS CATEGORÍAS</h3>
+            <h3>NUESTROS ESPACIOS</h3>
             <hr class="style1">
 	    </div>
 </div>
@@ -390,10 +390,12 @@
                 <img class="popou_img"src="{{ asset('img/entrega.jpg')}}" alt="">
             </div>       
             <div id="verde" class="content_pagos"> 
-                <h2 class=" frm_pagos text-center">REALIZAMOS DELIVERY ESPECIAL</h2>  
-                <hr class="style3">   
-                <h5>Primero se envía la cotización al cliente, luego de ello el cliente envía la orden de compra por medio de nuestro correo y a las 24 horas 
-                    se le realiza el envío de los productos dentro de Lima sin costo alguno, a provincia se aplica un adicional.</h5>                   
+                <h2 class=" frm_pagos text-center"></h2>  
+                <hr class="style3"> 
+                <h3>Fiestas de parroquialización</h3>  
+                <h5>11 de febrero La celebración del aniversario de parroquialización, suele iniciar 
+                    en enero y se extiende hasta febrero. Uno de los principales actos que se realizan 
+                    es el Desfile de la Confraternidad, con el que se cierran las fiestas.</h5>                   
             </div>
         </div>
     </div>
@@ -403,7 +405,7 @@
     <div class="modal-dialog modal-xl">
     <div class="modal-content">
         <div class="modal-header">
-            <h5 class="text-center modal-title" id="exampleModalCenterTitle">OFERTAS DEL DÍA</h5>
+            <h5 class="text-center modal-title" id="exampleModalCenterTitle">CURSOS</h5>
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
             </button>
