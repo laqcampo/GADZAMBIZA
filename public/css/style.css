@@ -449,7 +449,7 @@ nav ul li a:hover{
     padding: 50px;
     color: #fff;
     background: linear-gradient(0deg, rgba(0,0,0,0.8491771708683473) 26%,
-                rgba(0, 109, 192, 0.808) 53%);
+    #370813 53%);
     background-repeat:no-repeat;
     background-size: 100% 100%;
     background-size: cover;
@@ -1039,15 +1039,15 @@ textarea.contact_input{
 }
 
 .standard .entry-title {
-    background: #0056f7;
+    background: #370813;
 }
 
 .standard .entry-title > h3 {
-    background: #0056f7;
+    background: #370813;
 }
 
 .standard .price {
-    background: #0056f7;
+    background: #370813;
 }
 
 
@@ -1062,7 +1062,7 @@ textarea.contact_input{
   .wrapper {
     width: 300px;
     height: 500px;
-    background: rgb(4, 154, 255);
+    background: #370813;
     margin: auto;
     position: relative;
     overflow: hidden;
@@ -1380,7 +1380,7 @@ textarea.contact_input{
 	display:block;
 	padding:4px 15px 4px 30px;
 	color:#fff;
-	background-color:#0081c2;
+	background-color:#370813;
 	position:absolute;
 	top:10px;
 	right:0;
@@ -1428,7 +1428,7 @@ textarea.contact_input{
 	transition:all .3s ease 0s
 }
 .product-grid8 .title a{color:#000}
-.product-grid8 .title a:hover{color:#0081c2}
+.product-grid8 .title a:hover{color:#370813}
 .product-grid8 .all-deals{
 	display:block;
 	color:#fff;
@@ -1441,7 +1441,7 @@ textarea.contact_input{
 	transition:all .5s ease 0s
 }
 .product-grid8 .all-deals .icon{margin-left:7px}
-.product-grid8 .all-deals:hover{background-color:#0081c2}
+.product-grid8 .all-deals:hover{background-color:#370813}
 @media only screen and (max-width:990px){
 	.product-grid8{margin-bottom:30px}
 }
@@ -1489,7 +1489,7 @@ textarea.contact_input{
   }
   .product-description span {
     font-size: 12px;
-    color: #358ED7;
+    color: #370813;
     letter-spacing: 1px;
     text-transform: uppercase;
     text-decoration: none;
@@ -1556,7 +1556,7 @@ textarea.contact_input{
   }
   
   .cable-choose button {
-    border: 2px solid #0781b6;
+    border: 2px solid #370813;
     border-radius: 6px;
     padding: 13px 20px;
     font-size: 14px;
@@ -1579,7 +1579,7 @@ textarea.contact_input{
   }
   
   .cable-config a {
-    color: #358ED7;
+    color: #370813;
     text-decoration: none;
     font-size: 12px;
     position: relative;
@@ -1658,7 +1658,7 @@ textarea.contact_input{
     display: flex;
     justify-content: center;
     align-items: center;
-	background: rgb(7, 129, 182);
+	background: #370813;
 }
 
 .carousel_prove {
@@ -1691,8 +1691,8 @@ textarea.contact_input{
     text-align: center;
     letter-spacing: 1.5px;
     font-size: 14px;
-    background: rgb(7, 129, 182);
-    color: white;   
+    background: rgba(58, 1, 1, 0.662);
+    color: rgba(74, 1, 1, 0.84);   
 }
 
 .carousel_prove .item .content h1 {
@@ -1735,15 +1735,15 @@ textarea.contact_input{
     border-right: 1px solid #ccc4;
     padding: 20px;
     cursor: pointer;
-    background:  rgb(7, 129, 182);
-    color: white;
+    background:  #370813;
+    color: rgb(124, 82, 82);
 }
 
 .buttons_prove .next {
     padding: 20px;
     cursor: pointer;
-    background:  rgb(7, 129, 182);
-    color: white;
+    background:  #370813;
+    color: rgb(124, 82, 82);
 }
 
 .buttons_prove .prev:active {
