@@ -107,7 +107,7 @@
                 </div>
             </div>
         </div>
-<!--         <div class="col-md-3 col-sm-6 mb-3 text-center">
+         <div class="col-md-3 col-sm-6 mb-3 text-center">
             <div class="single-content_service">
                 <div class="service">
                     <i class="fas fa-thumbs-up fa-4x"></i>
@@ -116,7 +116,7 @@
                     <a href="" class="btn_modal_wel mt-5" data-toggle="modal" data-target=".bd-example-modal-xl">Ver mas</a>          
                 </div>
             </div>
-        </div> -->
+        </div>
     </div>
 </div>
 @endsection
@@ -127,7 +127,7 @@
             <div class="single-content">
                 <img src="{{ asset('img/categoria/cat1.jpg')}}" alt="Categorias Higienika Oficce Perú">
                 <div class="text-content">
-                    <h3>Eventos</h3>
+                    <h3>MISION</h3>
                     <hr class="style2">
                     <h5>Detalle del evento a realizar</h5>
                 </div>
@@ -137,7 +137,7 @@
             <div class="single-content">
                 <img src="{{ asset('img/categoria/cat2.jpg')}}" alt="Categorias Higienika Oficce Perú">
                 <div class="text-content">
-                    <h3>Artículos de Oficina</h3>
+                    <h3>VISION</h3>
                     <hr class="style2">
                     <h5>Artículos de oficina de las mejores marcas</h5>
                 </div>
@@ -147,7 +147,7 @@
             <div class="single-content">
                 <img src="{{ asset('img/categoria/cat3.jpg')}}" alt="Categorias Higienika Oficce Perú">
                 <div class="text-content">
-                    <h3>Repuestos De Moviles</h3>
+                    <h3>EJES DE TRABAJO</h3>
                     <hr class="style2">
                     <h5>Distribuimos Partes y repuestos</h5>
                 </div>
@@ -157,7 +157,7 @@
             <div class="single-content">
                 <img src="{{ asset('img/categoria/cat4.jpg')}}" alt="Categorias Higienika Oficce Perú">
                 <div class="text-content">
-                    <h3>Artículos de Laptops</h3>
+                    <h3>OBJETIVOS ESTRATEGICOS</h3>
                     <hr class="style2">
                     <h5>Artículos Laptops de trabajo</h5>
                 </div>
@@ -291,8 +291,8 @@
 @section('title')
 <div class="col-12">
 		<div class="testimonial-title">
-			<h5>CONOCE</h5>
-            <h3>NUESTROS ESPACIOS</h3>
+			<h5></h5>
+            <h3>CONOCE MEJOR EL GAD</h3>
             <hr class="style1">
 	    </div>
 </div>
