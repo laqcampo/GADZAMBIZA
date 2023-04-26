@@ -49,7 +49,7 @@
                 <li><a href="{{ url('/sobrenosotros')}}">EQUIPO DE TRABAJO</a></li>
                 <li><a  href="{{ url('/productos')}}">PRODUCTOS</a></li>
                 <li><a  href="{{ url('/nosotros')}}">NOSOTROS</a></li>
-                <li><a href="{{ url('/foto_galeria')}}">FOTO GALERÍA</a></li>
+                <li><a href="{{ url('/foto_galeria')}}">GALERÍA</a></li>
                 <li><a href="{{ url('/login')}}">INICIAR SESION</a></li>
 
             </ul>
@@ -80,9 +80,9 @@
         <div class="col-md-3 col-sm-6 mb-3 text-center">
             <div class="single-content_service">
                 <div class="service">
-                    <i class="fas fa-percent fa-4x"></i>
-                    <h4 class="title_services">Ofertas del Día</h4>
-                    <p class="description_services">Ofertas especiales</p><br>
+                <i class="fa fa-file-code-o" aria-hidden="true"></i>
+                    <h4 class="title_services">Punto de encuentro</h4>
+                    <p class="description_services">Cursos que se llevan a cabo en el Gobierno parroquial y tienen certificacion</p><br>
                     <a href="" class="btn_modal_wel mt-5" data-toggle="modal" data-target=".bd-example-modal-x3">Ver mas</a>  
                 </div>
             </div>
@@ -90,9 +90,9 @@
         <div class="col-md-3 col-sm-6 mb-3 text-center">
             <div class="single-content_service">
                 <div class="service">
-                    <i class="fas fa-shopping-cart fa-4x"></i>
-                    <h4 class="title_services">Entrega Inmediata</h4>
-                    <p class="description_services">Servicio de entrega inmediata</p><br>
+                <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                    <h4 class="title_services">Tradicion y cultura</h4>
+                    <p class="description_services">La Parroquia de Zambiza es cuna de tradicion y cultura</p><br>
                     <a href="" class="btn_modal_wel mt-5" data-toggle="modal" data-target=".bd-example-modal-xl2">Ver mas</a>  
                 </div>
             </div>
