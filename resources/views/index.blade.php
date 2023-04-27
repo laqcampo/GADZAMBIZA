@@ -393,9 +393,12 @@
                 <h2 class=" frm_pagos text-center"></h2>  
                 <hr class="style3"> 
                 <h3>Fiestas de parroquialización</h3>  
-                <h5>11 de febrero La celebración del aniversario de parroquialización, suele iniciar 
-                    en enero y se extiende hasta febrero. Uno de los principales actos que se realizan 
-                    es el Desfile de la Confraternidad, con el que se cierran las fiestas.</h5>                   
+                <h5>Fiestas:Fiestas de parroquialización: 11 de febrero La celebración del aniversario de parroquialización, suele iniciar en enero y se extiende hasta febrero. Uno de los principales actos que se realizan es el Desfile de la Confraternidad, con el que se cierran las fiestas.
+                    <p></p>
+                    <p>Fiestas de patrono San Miguel:  29 de septiembre En las vísperas de las fiestas del patrono de la parroquia, por la noche, se desarrolla la quema de chamiza y castillo, desfiles, baile y música tradicional. Al siguiente día se puede disfrutar del tradicional albazo, los priostes sirven el desayuno a los disfrazados, a los cabecillas y fiesteros.</p>                
+                    <p></p>
+                </h5> 
+
             </div>
         </div>
     </div>
