@@ -65,17 +65,51 @@
                     <div class="hero-text">
                         <h4>GOBIERNO <span>PARROQUIAL</span></h4>
 					    <br><br>
-                        <h1 class="tipeo1">VARIEDAD DE SERVICIOS</h1>
+                        <h1 class="tipeo1">VARIEDAD DE PRODUCTOS</h1>
                         <h1 class="tipeo2"><span class="type"></span></h1>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-@endsection 
+@endsection
 @section('products')
 <div class="main">
-    <br><h1 class="title_category">Escoja una de nuestras categorías</h1><br/>
+    <br><h1 class="title_category">Les Presentamos Nuestra Variedad De Productos Propios De La Localidad</h1>
+    <hr class="style4">
+    <hr>
+    <div class="container-fluid">
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+  <div class="col">
+    <div class="card">
+      <img src="{{ asset('img/productos/org.jpg')}}" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Productos sin quimicos</h5>
+        <p class="card-text">Una característica de nuestra parroquia es que se realiza el cultivo de productos sin químicos así manteniendo productos originales frescos y naturales.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="{{ asset('img/productos/org3.jpg')}}" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Productos de campo</h5>
+        <p class="card-text">
+        Otro de nuestros atractivos es la crianza de gallinas de campo y también la recolección de huevos de campo frescos y naturales listos para la venta.
+        </p>
+      </div>
+    </div>
+  </div>
+
+
+</div>
+  
+</div>
+
+
+
+
+
     <hr class="style4">
     <ul class="cards">
         @foreach($categorias as $categoria)
@@ -85,8 +119,8 @@
           <div class="card_content">
             <h1 class="card_title">{{$categoria->name}}</h1>
             <hr>
-            <p class="card_text">{{$categoria->descripcion}}</p> 
-            <a class="btn card_btn" href="{{ route('searchCategory' , $categoria->slug)}}"> 
+            <p class="card_text">{{$categoria->descripcion}}</p>
+            <a class="btn card_btn" href="{{ route('searchCategory' , $categoria->slug)}}">
                 Productos
             </a>
           </div>
