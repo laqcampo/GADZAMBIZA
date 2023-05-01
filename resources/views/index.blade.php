@@ -179,13 +179,14 @@
 </div>
 @endsection
 @section('title5')
-<div class="col-12 pt-2" style="background: #0781b6">
+<div class="col-12 pt-2">
 		<div class="proveedor-title">
-            <h3 style="color: white">ULTIMAS NOTICIAS</h3>
-            <hr class="style5">
+            <h3 style="color: black">ULTIMAS NOTICIAS</h3>
+            <hr class="style1">
 	    </div>
 </div>
 @endsection
+
 @section('Proveedores')
 <div class="container_prove">
     <div class="carousel_prove">
@@ -208,47 +209,12 @@
     </div>
 </div>
 @endsection
-<!-- @section('title2')
-<div class="col-12">
-		<div class="testimonial-title">
-			<h5>CONOCE</h5>
-            <h3>NUESTROS PRODUCTOS</h3>
-            <hr class="style1">
-	    </div>
-</div>
-@endsection
+
 
 @section('products')
 <div class="producst_body autoplay ">
-    @foreach($productos as $producto)
-    <div class="wrapper">
-        <div class="container">
-            <img class="top"src="{{asset('/img/productos/'.$producto->image)}}" alt="{{$producto->image}}">
-          <div class="bottom">
-            <div class="left">
-              <div class="details">
-                <h2 class="txt_products">{{$producto->name}}</h2>
-                <p>S/{{$producto->price}}</p>
-              </div>
-              <div class="buy text-center">
-                <a href="{{route('product-details', $producto->slug)}}">
-                    <i class="fas fa-eye"></i>
-                </a>  
-            </div>
-            </div>
-          </div>
-        </div>
-        <div class="inside">
-          <div class="icon"><i class="fas fa-plus"></i></div>
-          <div class="contents">
-            <h1>{{$producto->extract}}</h1>
-            <h5 style="color: white">{{$producto->descriptions}}</h5>
-          </div>
-        </div>
-      </div>
-    @endforeach 
 </div>
-@endsection -->
+@endsection
 
 @section('footer')
 <footer class="footer">
@@ -303,7 +269,7 @@
 <div class="col-12">
 		<div class="testimonial-title">
 			<h5></h5>
-            <h3>CONOCE MEJOR EL GAD</h3>
+            <h3>EL GAD</h3>
             <hr class="style1">
 	    </div>
 </div>

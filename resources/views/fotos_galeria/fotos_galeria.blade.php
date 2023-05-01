@@ -30,8 +30,8 @@
     .menu {
         list-style: none;
         padding: 0;
-        background: dodgerblue;
-        width: 70%;
+        background: #641c34;
+        width: 50%;
         max-width: 10000px;
         margin: auto;
         border-radius: 10px;
@@ -45,7 +45,7 @@
         color: white;
         padding: 20px;
         display: block;
-        border-radius: 1000px;
+        border-radius: 25px;
     }
 
     .menu li {
@@ -54,7 +54,7 @@
     }
 
     .menu li a:hover {
-        background: deepskyblue;
+        background: #d0d0d0;
     }
 
     .b {
