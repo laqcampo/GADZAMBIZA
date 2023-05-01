@@ -433,6 +433,7 @@
                     <div id="verde" class="content_pagos"> 
                         <strong><h2 class=" frm_pagos text-center">{{$oferta->titulo}}</h2></strong>  
                         <br>    
+                        <br>
                         <h4>{{$oferta->texto}}</h4>  
                         <button type="button" class="btnwssp btn btn-outline-success btn-lg">
                             <a target="none" href="https://wa.me/51987654321?text=Hola%2CEstoy+interesad%40+en+la+oferta%3A+{{$oferta->titulo}}">
