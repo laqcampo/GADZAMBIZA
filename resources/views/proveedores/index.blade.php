@@ -8,7 +8,7 @@
             </div><!-- /.col -->
             <div class="col-sm-6">
                 <ol class="breadcrumb float-sm-right">
-                    <li class="breadcrumb-item"><a href="#">Proveedores</a></li>
+                    <li class="breadcrumb-item"><a href="#">Ultimas noticias</a></li>
                     <li class="breadcrumb-item active">Index</li>
                 </ol>
             </div><!-- /.col -->
@@ -48,7 +48,7 @@
         </div>
         <div class="alert alert-success" role="alert">
             <h4 class="alert-heading">Hola {{ Auth::user()->name }}</h4>
-            <p>Si vas a publicar una Imagen de Proveedores porfavor sigue esta recomedación:<br>
+            <p>Si vas a publicar una noticia porfavor sigue esta recomedación:<br>
                 1-Para que el usuario tenga una mayor satisfaccion al ver 
                 la imagen porfavor que sus dimensiones sean de <strong>"720 x 1280"</strong>.<br>
                 2-Que la imagen tenga un formato <strong>".jpg"</strong>.<br>
