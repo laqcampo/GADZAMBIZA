@@ -79,6 +79,7 @@
     <hr class="style4">
     <hr>
     <div class="container-fluid">
+      <h2 class="title_category">Nuestros productos</h2>
     <div class="row row-cols-1 row-cols-md-3 g-4">
   <div class="col">
     <div class="card">
@@ -102,8 +103,41 @@
   </div>
 
 
+
+
+</div><br><br>
+<h2 class="title_category">Nuestros Productores</h2><br>
+
+<!-- seccion productores -->
+<div class="container-fluid">
+<div class="row row-cols-1 row-cols-md-3 g-4">
+  <div class="col">
+    <div class="card">
+      <img src="{{ asset('img/productores/p1.jpeg')}}" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Productos sin quimicos</h5>
+        <p class="card-text">Una característica de nuestra parroquia es que se realiza el cultivo de productos sin químicos así manteniendo productos originales frescos y naturales.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="{{ asset('img/productores/p2.jpeg')}}" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Productos de campo</h5>
+        <p class="card-text">
+        Otro de nuestros atractivos es la crianza de gallinas de campo y también la recolección de huevos de campo frescos y naturales listos para la venta.
+        </p>
+      </div>
+    </div>
+  </div>
+</div><br>
 </div>
-  
+<!-- seccion productores -->
+
+<!-- fin productos y ventas -->
+
+
 </div>
 
 
