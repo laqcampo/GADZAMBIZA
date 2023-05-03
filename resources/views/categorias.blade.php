@@ -38,7 +38,7 @@
     <header>
     <a href="#" class="logo">
         <h2 style="color: white" class="imgtamaño"></h2>
-        <!--<img  class="imgtamaño" src="{{ asset('img/jldm.png')}}" alt="JLDM ! Proyects">-->
+
     </a>
     <div class="menu-toggle" ></div>
     <nav>
@@ -66,7 +66,7 @@
                         <h4>GOBIERNO <span>PARROQUIAL</span></h4>
 					    <br><br>
                         <h1 class="tipeo1">VARIEDAD DE PRODUCTOS</h1>
-                        <h1 class="tipeo2"><span class="type"></span></h1>
+
                     </div>
                 </div>
             </div>
@@ -113,10 +113,12 @@
 <div class="row row-cols-1 row-cols-md-3 g-4">
   <div class="col">
     <div class="card">
-      <img src="{{ asset('img/productores/p1.jpeg')}}" class="card-img-top" alt="...">
+      <img src="{{ asset('img/productores/p1.1.jpeg')}}" class="card-img-top" alt="...">
       <div class="card-body">
-        <h5 class="card-title">Productos sin quimicos</h5>
-        <p class="card-text">Una característica de nuestra parroquia es que se realiza el cultivo de productos sin químicos así manteniendo productos originales frescos y naturales.</p>
+        <h5 class="card-title">Productos 100% Naturales</h5>
+        <h5>Elsa Guaman</h5>
+        <p class="card-text">Es una de nuestras vecinas productoras con sus productos como: <i> hortalizas orgánicas, zanahorias, remolacha, rábanos, lechuga, nabo chino, zuquini, brócoli, perejil, huevos de campo etc.</i></p>
+
       </div>
     </div>
   </div>
@@ -124,9 +126,9 @@
     <div class="card">
       <img src="{{ asset('img/productores/p2.jpeg')}}" class="card-img-top" alt="...">
       <div class="card-body">
-        <h5 class="card-title">Productos de campo</h5>
+        <h5 class="card-title">Nuestra Feria</h5>
         <p class="card-text">
-        Otro de nuestros atractivos es la crianza de gallinas de campo y también la recolección de huevos de campo frescos y naturales listos para la venta.
+           Está a sus órdenes todos los días sábado de 6:30 a 10:00 cerca de la iglesia.
         </p>
       </div>
     </div>
@@ -168,7 +170,7 @@
 @section('footer')
 <footer class="footer">
     <div class="l-footer">
-        <!--<img  class="footer_img" src="{{asset('img/JLDIAZ.png')}}" alt="JLDM | Proyectos">-->
+
         <h2 style="color: white" class="footer_img">Zámbiza</h2>
     <p>Es unida, con límites definidos, segura, saludable donde los ciudadanos acceden en igualdad de condiciones a los servicios básicos (energía, agua, saneamiento, salud, educación, tecnología) y a espacios verdes para la recreación.
     </p>
