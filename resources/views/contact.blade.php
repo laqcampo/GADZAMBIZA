@@ -71,8 +71,8 @@
                 </div>
             </div>
         </div>
-    @endsection 
-    
+    @endsection
+
 @section('cards_service')
 <div class="container_cards">
     <div class="row_cards">
@@ -92,7 +92,7 @@
                     <i class="fas fa-shopping-cart fa-4x"></i>
                     <h4 class="title_services">Entrega Inmediata</h4>
                     <p class="description_services">Servicio de entrega inmediata</p><br>
-                    <!--<a href="" class="btn_modal_wel mt-5" data-toggle="modal" data-target=".bd-example-modal-xl2">Ver mas</a>-->  
+                    <!--<a href="" class="btn_modal_wel mt-5" data-toggle="modal" data-target=".bd-example-modal-xl2">Ver mas</a>-->
                 </div>
             </div>
         </div>
@@ -112,7 +112,7 @@
                     <i class="fas fa-thumbs-up fa-4x"></i>
                     <h4 class="title_services">Multiples Formas de Pago</h4>
                     <p class="description_services">Diferentes tipos de pago</p>
-                    <!--<a href="" class="btn_modal_wel mt-5" data-toggle="modal" data-target=".bd-example-modal-xl">Ver mas</a>-->          
+                    <!--<a href="" class="btn_modal_wel mt-5" data-toggle="modal" data-target=".bd-example-modal-xl">Ver mas</a>-->
                 </div>
             </div>
         </div>
@@ -124,9 +124,9 @@
     <div class="form">
         <div class="contact-info">
                 <h3 class="contact_tittle">ESTAMOS UBICADOS EN</h3>
-                <p class="contact_text">Un punto estratégico para una mejor atención a 
-                    nuestros clientes para que puedan realizar su compra o 
-                    recoger sus productos.   
+                <p class="contact_text">Un punto estratégico para una mejor atención a
+                    nuestros clientes para que puedan realizar su compra o
+                    recoger sus productos.
                 </p>
 
             <div class="contactos_info">
@@ -161,17 +161,22 @@
                 </div>
             </div>
         </div>
+
+
+
+
         <div class="contact-form">
-            <form action="" autocomplete="off">
+            <form action="{{ url('/contact')}}" method="post" autocomplete="off">
+                @csrf
                 <h3 class="contact_tittle">COMUNÍCATE CON NOSOTROS</h3>
                 <div class="input-container ">
-                    <input type="text" name="name" class="contact_input" placeholder="NOMBRE">
+                    <input type="text" name="nombre" class="contact_input" placeholder="NOMBRE">
                 </div>
                 <div class="input-container">
                     <input type="text" name="email" class="contact_input" placeholder="EMAIL">
                 </div>
                 <div class="input-container">
-                    <input type="tel" name="celular" class="contact_input" placeholder="CELULAR">
+                    <input type="text" name="celular" class="contact_input" placeholder="CELULAR">
                 </div>
                 <div class="input-container">
                     <textarea name="mensaje" class="contact_input" id="" placeholder="MENSAJE"></textarea>
