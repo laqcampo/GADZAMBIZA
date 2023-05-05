@@ -48,7 +48,7 @@
                 <li><a  href="{{ url('/contact')}}">CONTÁCTENOS</a></li>
                 <li><a href="{{ url('/sobrenosotros')}}">EQUIPO DE TRABAJO</a></li>
                 <li><a  href="{{ url('/productos')}}">PRODUCTOS</a></li>
-                <li><a  href="{{ url('/nosotros')}}">NOSOTROS</a></li>
+                <li><a  href="{{ url('/nosotros')}}">Lugares turístico</a></li>
                 <li><a href="{{ url('/foto_galeria')}}">GALERÍA</a></li>
                 <li><a href="{{ url('/login')}}">INICIAR SESION</a></li>
 
@@ -73,7 +73,7 @@
             </div>
         </div>
     </div>
-@endsection 
+@endsection
 @section('cards_service')
 <div class="container_cards">
     <div class="row_cards">
@@ -83,7 +83,7 @@
                 <i class="fa fa-file-code-o" aria-hidden="true"></i>
                     <h4 class="title_services">Punto de encuentro</h4>
                     <p class="description_services">Cursos que se llevan a cabo en el Gobierno parroquial y tienen certificacion</p><br>
-                    <a href="" class="btn_modal_wel mt-5" data-toggle="modal" data-target=".bd-example-modal-x3">Ver mas</a>  
+                    <a href="" class="btn_modal_wel mt-5" data-toggle="modal" data-target=".bd-example-modal-x3">Ver mas</a>
                 </div>
             </div>
         </div>
@@ -93,7 +93,7 @@
                 <i class="fa fa-star-half-o" aria-hidden="true"></i>
                     <h4 class="title_services">Tradicion y cultura</h4>
                     <p class="description_services">La Parroquia de Zambiza es cuna de tradicion y cultura</p><br>
-                    <a href="" class="btn_modal_wel mt-5" data-toggle="modal" data-target=".bd-example-modal-xl2">Ver mas</a>  
+                    <a href="" class="btn_modal_wel mt-5" data-toggle="modal" data-target=".bd-example-modal-xl2">Ver mas</a>
                 </div>
             </div>
         </div>
@@ -101,9 +101,9 @@
             <div class="single-content_service">
                 <div class="service">
                     <i class="fas fa-user-check fa-4x"></i>
-                    <h4 class="title_services">Clientes Satisfechos</h4>
-                    <p class="description_services">Nuestros clientes felices con nuestro servicio</p>
-                    <a href="{{ url('/nosotros')}}" class="btn_modal_wel mt-5">Ver mas</a>  
+                    <h4 class="title_services">Lugares Turisticos</h4>
+                    <p class="description_services">Conoce acerca de los lugares turisticos que poseemos</p>
+                    <a href="{{ url('/nosotros')}}" class="btn_modal_wel mt-5">Ver mas</a>
                 </div>
             </div>
         </div>
@@ -113,7 +113,7 @@
                     <i class="fas fa-thumbs-up fa-4x"></i>
                     <h4 class="title_services">Múltiples Formas de Pago</h4>
                     <p class="description_services">Diferentes tipos de pago</p>
-                    <a href="" class="btn_modal_wel mt-5" data-toggle="modal" data-target=".bd-example-modal-xl">Ver mas</a>          
+                    <a href="" class="btn_modal_wel mt-5" data-toggle="modal" data-target=".bd-example-modal-xl">Ver mas</a>
                 </div>
             </div>
         </div>
@@ -121,7 +121,7 @@
 </div>
 @endsection
 @section('cards')
-<div class="container_cards">    
+<div class="container_cards">
     <div class="row_cards">
         <div class="col-md-3 col-sm-6 mb-3">
             <div class="single-content">
@@ -222,7 +222,7 @@
               <div class="buy text-center">
                 <a href="{{route('product-details', $producto->slug)}}">
                     <i class="fas fa-eye"></i>
-                </a>  
+                </a>
             </div>
             </div>
           </div>
@@ -235,7 +235,7 @@
           </div>
         </div>
       </div>
-    @endforeach 
+    @endforeach
 </div>
 @endsection -->
 
@@ -312,10 +312,10 @@
                     <div id="contenedor" class="row_p">
                         <div id="naranja" class="">
                             <img class="popou_img"src="{{ asset('img/pagos.jpg')}}" alt="">
-                        </div>       
-                        <div id="verde" class="content_pagos"> 
+                        </div>
+                        <div id="verde" class="content_pagos">
                             <h2 class=" frm_pagos text-center">FORMAS DE PAGO</h2>
-                <hr class="style3"> 
+                <hr class="style3">
 
                 <div id="price">
                     <!--price tab-->
@@ -374,11 +374,11 @@
                         </div>
                       </div>
                     </div>
-                    <!-- end of price tab--> 
+                    <!-- end of price tab-->
                 </div>
                         </div>
                     </div>
-                </div> 
+                </div>
             </div>
     </div>
 </div>
@@ -388,16 +388,16 @@
         <div id="contenedor" class="row_p">
             <div id="naranja" class="">
                 <img class="popou_img"src="{{ asset('img/entrega.jpg')}}" alt="">
-            </div>       
-            <div id="verde" class="content_pagos"> 
-                <h2 class=" frm_pagos text-center"></h2>  
-                <hr class="style3"> 
-                <h3>Fiestas de parroquialización</h3>  
+            </div>
+            <div id="verde" class="content_pagos">
+                <h2 class=" frm_pagos text-center"></h2>
+                <hr class="style3">
+                <h3>Fiestas de parroquialización</h3>
                 <h5>Fiestas:Fiestas de parroquialización: 11 de febrero La celebración del aniversario de parroquialización, suele iniciar en enero y se extiende hasta febrero. Uno de los principales actos que se realizan es el Desfile de la Confraternidad, con el que se cierran las fiestas.
                     <p></p>
-                    <p>Fiestas de patrono San Miguel:  29 de septiembre En las vísperas de las fiestas del patrono de la parroquia, por la noche, se desarrolla la quema de chamiza y castillo, desfiles, baile y música tradicional. Al siguiente día se puede disfrutar del tradicional albazo, los priostes sirven el desayuno a los disfrazados, a los cabecillas y fiesteros.</p>                
+                    <p>Fiestas de patrono San Miguel:  29 de septiembre En las vísperas de las fiestas del patrono de la parroquia, por la noche, se desarrolla la quema de chamiza y castillo, desfiles, baile y música tradicional. Al siguiente día se puede disfrutar del tradicional albazo, los priostes sirven el desayuno a los disfrazados, a los cabecillas y fiesteros.</p>
                     <p></p>
-                </h5> 
+                </h5>
 
             </div>
         </div>
@@ -418,23 +418,23 @@
                 <div id="contenedor" class="row_p">
                     <div id="naranja" class="">
                         <img class="popou_img"src="{{asset('/img/ofertas/'.$oferta->image)}}" alt="{{$oferta->image}}">
-                    </div>       
-                    <div id="verde" class="content_pagos"> 
-                        <strong><h2 class=" frm_pagos text-center">{{$oferta->titulo}}</h2></strong>  
-                        <br>    
-                        <h4>{{$oferta->texto}}</h4>  
+                    </div>
+                    <div id="verde" class="content_pagos">
+                        <strong><h2 class=" frm_pagos text-center">{{$oferta->titulo}}</h2></strong>
+                        <br>
+                        <h4>{{$oferta->texto}}</h4>
                         <button type="button" class="btnwssp btn btn-outline-success btn-lg">
                             <a target="none" href="https://wa.me/51987654321?text=Hola%2CEstoy+interesad%40+en+la+oferta%3A+{{$oferta->titulo}}">
                                Preguntar
                             </a>
-                        </button> 
+                        </button>
                     </div>
                 </div>
-                @endforeach  
-            </div> 
+                @endforeach
+            </div>
         </div>
     </div>
-    <div class='icon-scroll'></div> 
-    <h6 style="color: white" class="text-center">Si hay más promociones por favor siga bajando</h6>     
+    <div class='icon-scroll'></div>
+    <h6 style="color: white" class="text-center">Si hay más promociones por favor siga bajando</h6>
 </div>
 @endsection
