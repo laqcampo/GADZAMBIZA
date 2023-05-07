@@ -16,6 +16,6 @@ class ContactanosController extends Controller
     public function store (Request $request){
         $correo = new ContactanosMailable($request->all());
         Mail::to('sdq.guallichico@yavirac.edu.ec')->send($correo);
-        return redirect('/contact');
+        return redirect('/contact')->with('info', 'Mensaje Enviado...');
     }
 }

@@ -183,6 +183,11 @@
                 </div>
                 <input type="submit" value="ENVIAR" class="contact_btn">
             </form>
+             @if (session('info'))
+             <script>
+                  alert("{{session('info')}}")
+             </script>
+             @endif
         </div>
     </div>
 </div>
