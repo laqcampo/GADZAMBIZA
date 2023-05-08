@@ -101,7 +101,7 @@
             <div class="single-content_service">
                 <div class="service">
                     <i class="fas fa-user-check fa-4x"></i>
-                    <h4 class="title_services">LUGARES TURISTICOS</h4>
+                    <h4 class="title_services">Lugares turisticos</h4>
 
                     <a href="{{ url('/nosotros')}}" class="btn_modal_wel mt-5">Ver mas</a>
                 </div>
