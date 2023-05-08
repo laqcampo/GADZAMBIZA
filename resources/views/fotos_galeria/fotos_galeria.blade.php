@@ -9,7 +9,7 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <title>Foto, Galeria!</title>
+    <title>Galeria</title>
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Raleway:500,600&display=swap" rel="stylesheet">
 
@@ -30,7 +30,7 @@
     .menu {
         list-style: none;
         padding: 0;
-        background: #641c34;
+        background: #370813;
         width: 50%;
         max-width: 10000px;
         margin: auto;
@@ -263,10 +263,10 @@
     <ul class="menu" style="text-align: center">
         <li class="b"> <br> </li>
         <li><a href="{{ url('/')}}">INICIO</a></li>
-        <li><a href="{{ url('/contact')}}">CONTACTENOS</a></li>
         <li><a href="{{ url('/productos')}}">PRODUCTOS</a></li>
-        <li><a class="active" href="{{ url('/foto_galeria')}}">FOTO GALERÍA</a></li>
-        <li><a href="{{ url('/nosotros')}}">NOSOTROS</a></li>
+        <li><a href="{{ url('/nosotros')}}">LUGARES TURISTICOS</a></li>
+        <li><a class="active" href="{{ url('/foto_galeria')}}">GALERÍA</a></li>
+        <li><a href="{{ url('/contact')}}">CONTACTENOS</a></li>
     </ul>
     <br><br><br>
 

@@ -45,11 +45,11 @@
             <ul>
 
                 <li><a  href="{{ url('/')}}" >INICIO</a></li>
-                <li><a  href="{{ url('/contact')}}">CONTÁCTENOS</a></li>
                 <li><a href="{{ url('/sobrenosotros')}}">EQUIPO DE TRABAJO</a></li>
                 <li><a class="active" href="{{ url('/productos')}}">PRODUCTOS</a></li>
-                <li><a  href="{{ url('/nosotros')}}">Lugares turísticos</a></li>
-                <li><a href="{{ url('/foto_galeria')}}">FOTO GALERÍA</a></li>
+                <li><a  href="{{ url('/nosotros')}}">LUGARES TURISTICOS</a></li>
+                <li><a href="{{ url('/foto_galeria')}}">GALERÍA</a></li>
+                <li><a  href="{{ url('/contact')}}">CONTÁCTENOS</a></li>
                 <li><a href="{{ url('/login')}}">INICIAR SESION</a></li>
 
             </ul>
@@ -204,12 +204,12 @@
                 <li><a href="#">Trabaja con nosotros</a></li>
             </ul>
             </li>
-            <li class="features">
+            <!-- <li class="features">
                 <h2>Procedimiento de Pagos</h2>
                 <ul class="box">
                     <li><a type="button" href="#">Ver mas</a></li>
                 </ul>
-                </li>
+                </li> -->
         </ul>
         <div class="b-footer">
             <p>Todos los Derechos reservados by <a href="https://www.gadzambiza.gob.ec/" target="_blank">©GADZAMBIZA-2022</a></p>

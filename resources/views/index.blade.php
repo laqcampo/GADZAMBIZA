@@ -45,11 +45,11 @@
             <ul>
 
                 <li><a href="" class="active">INICIO</a></li>
-                <li><a  href="{{ url('/contact')}}">CONTÁCTENOS</a></li>
                 <li><a href="{{ url('/sobrenosotros')}}">EQUIPO DE TRABAJO</a></li>
                 <li><a  href="{{ url('/productos')}}">PRODUCTOS</a></li>
-                <li><a  href="{{ url('/nosotros')}}">Lugares turístico</a></li>
+                <li><a  href="{{ url('/nosotros')}}">LUGARES TURISTICOS</a></li>
                 <li><a href="{{ url('/foto_galeria')}}">GALERÍA</a></li>
+                <li><a  href="{{ url('/contact')}}">CONTÁCTENOS</a></li>
                 <li><a href="{{ url('/login')}}">INICIAR SESION</a></li>
 
             </ul>
@@ -101,7 +101,7 @@
             <div class="single-content_service">
                 <div class="service">
                     <i class="fas fa-user-check fa-4x"></i>
-                    <h4 class="title_services">Lugares Turísticos</h4>
+                    <h4 class="title_services">LUGARES TURISTICOS</h4>
 
                     <a href="{{ url('/nosotros')}}" class="btn_modal_wel mt-5">Ver mas</a>
                 </div>
@@ -280,12 +280,12 @@
                 <li><a href="#">Trabaja con nosotros</a></li>
             </ul>
             </li>
-            <li class="features">
+            <!-- <li class="features">
                 <h2>Procedimiento de Pagos</h2>
                 <ul class="box">
                     <li><a type="button" class="btn btn-outline-info"  data-toggle="modal" data-target=".bd-example-modal-xl" href="#">Ver mas</a></li>
                 </ul>
-                </li>
+                </li> -->
         </ul>
         <div class="b-footer">
             <p>Todos los Derechos reservados by <a href="https://www.gadzambiza.gob.ec/" target="_blank">©GAD Zambiza-2022.</a></p>

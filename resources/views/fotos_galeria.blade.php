@@ -171,12 +171,12 @@
                 <li><a href="#">Trabaja con nosotros</a></li>
             </ul>
             </li>
-            <li class="features">
+            <!-- <li class="features">
                 <h2>Procedimiento de Pagos</h2>
                 <ul class="box">
                     <li><a type="button" href="#">Ver mas</a></li>
                 </ul>
-                </li>
+                </li> -->
         </ul>
         <div class="b-footer">
             <p>Todos los Derechos reservados by <a href="https://www.gadzambiza.gob.ec/" target="_blank">©GADZAMBIZA-2022</a></p>

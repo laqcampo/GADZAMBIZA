@@ -44,11 +44,11 @@
     <nav>
             <ul>
                 <li><a  href="{{ url('/')}}" >INICIO</a></li>
-                <li><a  href="{{ url('/contact')}}">CONTÁCTENOS</a></li>
                 <li><a class="active" href="{{ url('/sobrenosotros')}}">EQUIPO DE TRABAJO</a></li>
                 <li><a  href="{{ url('/productos')}}">PRODUCTOS</a></li>
-                <li><a  href="{{ url('/nosotros')}}">Lugares turísticos</a></li>
-                <li><a href="{{ url('/foto_galeria')}}">FOTO GALERÍA</a></li>
+                <li><a  href="{{ url('/nosotros')}}">LUGARES TURISTICOS</a></li>
+                <li><a href="{{ url('/foto_galeria')}}">GALERÍA</a></li>
+                <li><a  href="{{ url('/contact')}}">CONTÁCTENOS</a></li>
                 <li><a href="{{ url('/login')}}">INICIAR SESION</a></li>
             </ul>
         </nav>
@@ -94,17 +94,19 @@
         </div>
         <div class="nosotros_content">
             <div>
-                <h3>PRESIDENTE</h3>
+                <h5>PRESIDENTE</h5>
                 <p>
-                                    BIOGRAFÍA
-                    Nombre completos: Celio Reinaldo Arias Pilaguano
-                    Nacionalidad: Ecuatoriana
+                    Nombre: Celio Reinaldo Arias Pilaguano
+                    <br>
                     Edad: 61 años
-                    PRIMARIA
+                    <br>
+                    PRIMARIA:
                     Unidad Educativa «Pedro Luis Calero» Zámbiza
-                    SECUNDARIA
+                    <br>
+                    SECUNDARIA:
                     Colegio Unión Nacional De Periodistas (UNP)
-                    NIVEL SUPERIOR
+                    <br>
+                    NIVEL SUPERIOR:
                     Universidad Central Del Ecuador Profesión Psicólogo
                 </p>
             </div>
@@ -117,16 +119,18 @@
         </div>
         <div class="nosotros_content">
             <div>
-                <h3>VICEPRESIDENTE</h3>
+                <h5>VICEPRESIDENTE</h5>
                 <p>
-                                BIOGRAFÍA
-                Nombres y Apellidos:Hipolito Javier Lluno Carrera
+                Nombres:Hipolito Javier Lluno Carrera
+                <br>
                 Numero de cedula: 170395619-1
+                <br>
                 Tipo de sangre: A+
+                <br>
                 Profesión: Abogado de los tribunales de justicia y procesal civil
-                Registro profesional 6495 C. A. P. – 17-2002
+                <br>
                 Representante: Comisión de seguridad.
-                Domicilio: Zambiza, cantón Quito, provincia de Pichincha
+                <br>
                 Teléfonos: 2886296 – 0995031650 – O987011901
                 </p>
 
@@ -140,16 +144,17 @@
         </div>
         <div class="nosotros_content">
             <div>
-                <h3>VOCAL GADPR</h3>
+                <h5>VOCAL GADPR</h5>
                 <p>
-                                    BIOGRAFÍA
+                    Nombres:Ivonne Angelica Lema Carrera
+                    <br>
                     Lic. en Ciencias de la Educación
-                    mención “Físico- Matemático” en la Universidad Técnica Particular de Loja.
-                    Ejerció como docente del Colegio Particular “Fernando Ortiz Crespo”
+                    mención “Físico- Matemático”
+                    <br>
                     Vocal a cargo de la comisión de Educación,
                     Cultura y Producción en la administración 2014-2019
+                    <br>
                     Actualmente Vocal a cargo de la comisión de Salud, Educación.
-
                 </p>
             </div>
         </div>
@@ -161,13 +166,14 @@
         </div>
         <div class="nosotros_content">
             <div>
-            <h3>VOCAL SEGUNDO GADPR</h3>
+            <h5>VOCAL SEGUNDO GADPR</h5>
                 <p>
-                                    CARGO ACTUAL
                     Vocal Principal GAD Parroquial de Zámbiza.
-                    COMISIONES A CARGO: Medio Ambiente, Cultura y Producción.
-                    Durante 15 años desempeño en QUITO MOTORS S.A.C.I (Ford Motor Company).
+                    <br>
+                    Comisiones a cargo: Medio Ambiente, Cultura y Producción.
+                    <br>
                     Inicio su carrera dirigencial como presidente del Barrio San Miguel de Cocotog.
+                    <br>
                     Entre los logros obtenidos es trabajar en conjunto con la comunidad para mejorar.
                 </p>
             </div>
@@ -214,12 +220,12 @@
                 <li><a href="#">Trabaja con nosotros</a></li>
             </ul>
             </li>
-            <li class="features">
+            <!-- <li class="features">
                 <h2>Procedimiento de Pagos</h2>
                 <ul class="box">
                     <li><a type="button" href="#">Ver mas</a></li>
                 </ul>
-                </li>
+                </li> -->
         </ul>
         <div class="b-footer">
             <p>Todos los Derechos reservados by <a href="https://josediazmirano.github.io/jldiaz/" target="_blank">©GADZAMBIZA-2022</a></p>
