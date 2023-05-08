@@ -124,16 +124,18 @@
                 @csrf
                 <h3 class="contact_tittle">COMUNÍCATE CON NOSOTROS</h3>
                 <div class="input-container ">
-                    <input type="text" name="nombre" class="contact_input" placeholder="NOMBRE">
+                    <input type="text" name="name" class="contact_input" placeholder="NOMBRE">
                 </div>
                 <div class="input-container">
-                    <input type="text" name="email" class="contact_input" placeholder="EMAIL">
+                <h4 class="contact_tittle">Email</h4>
+                    <input type="text" name="email" class="form-control" placeholder="Ejemplo: juan@zambiza.com">
                 </div>
                 <div class="input-container">
-                    <input type="text" name="celular" class="contact_input" placeholder="CELULAR">
+                    <input type="tel" name="celular" class="contact_input" placeholder="CELULAR">
                 </div>
                 <div class="input-container">
-                    <textarea name="mensaje" class="contact_input" id="" placeholder="MENSAJE"></textarea>
+                <h4 class="contact_tittle">Mensaje</h4>
+                    <textarea name="mensaje" class="contact_input" id="" placeholder=></textarea>
                 </div>
                 <input type="submit" value="ENVIAR" class="contact_btn">
             </form>
