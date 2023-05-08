@@ -48,7 +48,7 @@
                 <li><a  href="{{ url('/contact')}}">CONTÁCTENOS</a></li>
                 <li><a href="{{ url('/sobrenosotros')}}">EQUIPO DE TRABAJO</a></li>
                 <li><a  href="{{ url('/productos')}}">PRODUCTOS</a></li>
-                <li><a  href="{{ url('/nosotros')}}">NOSOTROS</a></li>
+                <li><a  href="{{ url('/nosotros')}}">Lugares turísticos</a></li>
                 <li><a href="{{ url('/foto_galeria')}}">FOTO GALERÍA</a></li>
                 <li><a href="{{ url('/login')}}">INICIAR SESION</a></li>
 
@@ -72,7 +72,7 @@
             </div>
         </div>
     </div>
-@endsection 
+@endsection
 @section('content')
 <main class="container_product">
     <div class="left-column">
@@ -120,7 +120,7 @@
     </div>
   </div>
 </div>
-@endsection 
+@endsection
 
 @section('footer')
 <footer class="footer">

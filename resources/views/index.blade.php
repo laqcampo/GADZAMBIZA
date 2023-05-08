@@ -48,7 +48,7 @@
                 <li><a  href="{{ url('/contact')}}">CONTÁCTENOS</a></li>
                 <li><a href="{{ url('/sobrenosotros')}}">EQUIPO DE TRABAJO</a></li>
                 <li><a  href="{{ url('/productos')}}">PRODUCTOS</a></li>
-                <li><a  href="{{ url('/nosotros')}}">NOSOTROS</a></li>
+                <li><a  href="{{ url('/nosotros')}}">Lugares turístico</a></li>
                 <li><a href="{{ url('/foto_galeria')}}">GALERÍA</a></li>
                 <li><a href="{{ url('/login')}}">INICIAR SESION</a></li>
 
@@ -113,7 +113,7 @@
                     <i class="fas fa-thumbs-up fa-4x"></i>
                     <h4 class="title_services">Nuestros Productos</h4>
                     <p class="description_services">Diferentes tipos de pago</p>
-                    <a href="{{ url('/productos')}}" class="btn_modal_wel mt-5" >Ver mas</a>
+                    <a href="" class="btn_modal_wel mt-5" data-toggle="modal" data-target=".bd-example-modal-xl">Ver mas</a>
                 </div>
             </div>
         </div>

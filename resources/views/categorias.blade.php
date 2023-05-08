@@ -48,7 +48,7 @@
                 <li><a  href="{{ url('/contact')}}">CONTÁCTENOS</a></li>
                 <li><a href="{{ url('/sobrenosotros')}}">EQUIPO DE TRABAJO</a></li>
                 <li><a class="active" href="{{ url('/productos')}}">PRODUCTOS</a></li>
-                <li><a  href="{{ url('/nosotros')}}">NOSOTROS</a></li>
+                <li><a  href="{{ url('/nosotros')}}">Lugares turísticos</a></li>
                 <li><a href="{{ url('/foto_galeria')}}">FOTO GALERÍA</a></li>
                 <li><a href="{{ url('/login')}}">INICIAR SESION</a></li>
 
@@ -83,7 +83,7 @@
     <div class="row row-cols-1 row-cols-md-3 g-4">
   <div class="col">
     <div class="card">
-      <img src="{{ asset('img/productos/org.jpg')}}" class="card-img-top" alt="...">
+      <img src="{{ asset('img/productos/org.j')}}" class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title">Productos sin quimicos</h5>
         <p class="card-text">Una característica de nuestra parroquia es que se realiza el cultivo de productos sin químicos así manteniendo productos originales frescos y naturales.</p>

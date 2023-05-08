@@ -47,7 +47,7 @@
                 <li><a  href="{{ url('/contact')}}">CONTÁCTENOS</a></li>
                 <li><a class="active" href="{{ url('/sobrenosotros')}}">EQUIPO DE TRABAJO</a></li>
                 <li><a  href="{{ url('/productos')}}">PRODUCTOS</a></li>
-                <li><a  href="{{ url('/nosotros')}}">NOSOTROS</a></li>
+                <li><a  href="{{ url('/nosotros')}}">Lugares turísticos</a></li>
                 <li><a href="{{ url('/foto_galeria')}}">FOTO GALERÍA</a></li>
                 <li><a href="{{ url('/login')}}">INICIAR SESION</a></li>
             </ul>
@@ -70,7 +70,7 @@
             </div>
         </div>
     </div>
-@endsection 
+@endsection
 
 @section('title')
 <div class="col-12">
@@ -80,7 +80,7 @@
             <br>
             <h3>CONOCE MÁS ACERCA DE NUETRO EQUIPO DE TRABAJO</h3><br>
             <hr class="style1">
-            
+
 	    </div>
 </div>
 @endsection
@@ -129,7 +129,7 @@
                 Domicilio: Zambiza, cantón Quito, provincia de Pichincha
                 Teléfonos: 2886296 – 0995031650 – O987011901
                 </p>
-                
+
             </div>
         </div>
     </div>
@@ -143,10 +143,10 @@
                 <h3>VOCAL GADPR</h3>
                 <p>
                                     BIOGRAFÍA
-                    Lic. en Ciencias de la Educación 
+                    Lic. en Ciencias de la Educación
                     mención “Físico- Matemático” en la Universidad Técnica Particular de Loja.
                     Ejerció como docente del Colegio Particular “Fernando Ortiz Crespo”
-                    Vocal a cargo de la comisión de Educación, 
+                    Vocal a cargo de la comisión de Educación,
                     Cultura y Producción en la administración 2014-2019
                     Actualmente Vocal a cargo de la comisión de Salud, Educación.
 

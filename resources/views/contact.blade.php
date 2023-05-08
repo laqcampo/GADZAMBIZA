@@ -49,7 +49,7 @@
                 <li><a class="active" href="{{ url('/contact')}}">CONTÁCTENOS</a></li>
                 <li><a href="{{ url('/sobrenosotros')}}">EQUIPO DE TRABAJO</a></li>
                 <li><a  href="{{ url('/productos')}}">PRODUCTOS</a></li>
-                <li><a  href="{{ url('/nosotros')}}">NOSOTROS</a></li>
+                <li><a  href="{{ url('/nosotros')}}">Lugares turísticos</a></li>
                 <li><a href="{{ url('/foto_galeria')}}">FOTO GALERÍA</a></li>
                 <li><a href="{{ url('/login')}}">INICIAR SESION</a></li>
             </ul>
@@ -71,8 +71,8 @@
                 </div>
             </div>
         </div>
-    @endsection 
-    
+    @endsection
+
 @section('cards_service')
 <div class="container_cards">
     <div class="row_cards">
@@ -92,7 +92,7 @@
                     <i class="fas fa-shopping-cart fa-4x"></i>
                     <h4 class="title_services">Entrega Inmediata</h4>
                     <p class="description_services">Servicio de entrega inmediata</p><br>
-                    <!--<a href="" class="btn_modal_wel mt-5" data-toggle="modal" data-target=".bd-example-modal-xl2">Ver mas</a>-->  
+                    <!--<a href="" class="btn_modal_wel mt-5" data-toggle="modal" data-target=".bd-example-modal-xl2">Ver mas</a>-->
                 </div>
             </div>
         </div>
@@ -112,7 +112,7 @@
                     <i class="fas fa-thumbs-up fa-4x"></i>
                     <h4 class="title_services">Multiples Formas de Pago</h4>
                     <p class="description_services">Diferentes tipos de pago</p>
-                    <!--<a href="" class="btn_modal_wel mt-5" data-toggle="modal" data-target=".bd-example-modal-xl">Ver mas</a>-->          
+                    <!--<a href="" class="btn_modal_wel mt-5" data-toggle="modal" data-target=".bd-example-modal-xl">Ver mas</a>-->
                 </div>
             </div>
         </div>
@@ -124,9 +124,9 @@
     <div class="form">
         <div class="contact-info">
                 <h3 class="contact_tittle">ESTAMOS UBICADOS EN</h3>
-                <p class="contact_text">Un punto estratégico para una mejor atención a 
-                    nuestros clientes para que puedan realizar su compra o 
-                    recoger sus productos.   
+                <p class="contact_text">Un punto estratégico para una mejor atención a
+                    nuestros clientes para que puedan realizar su compra o
+                    recoger sus productos.
                 </p>
 
             <div class="contactos_info">

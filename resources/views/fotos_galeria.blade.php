@@ -30,7 +30,7 @@
                 <li><a  href="{{ url('/contact')}}">CONTÁCTENOS</a></li>
                 <li><a href="{{ url('/sobrenosotros')}}">EQUIPO DE TRABAJO</a></li>
                 <li><a  href="{{ url('/productos')}}">PRODUCTOS</a></li>
-                <li><a  href="{{ url('/nosotros')}}">NOSOTROS</a></li>
+                <li><a  href="{{ url('/nosotros')}}">Lugares turísticos</a></li>
                 <li><a class="active" href="{{ url('/foto_galeria')}}">FOTO GALERÍA</a></li>
                 <li><a href="{{ url('/login')}}">INICIAR SESION</a></li>
             </ul>
@@ -54,7 +54,7 @@
             </div>
         </div>
     </div>
-@endsection 
+@endsection
 @section('foda')
 <div class="nosotros_body">
 <div class="nosotros_container">
@@ -80,10 +80,10 @@
                 <h3>Objetivos Estrategicos</h3>
                 <p>
                     Conservar de manera técnica
-                    
+
                     los ecosistemas naturales, través de campañas de educación y protección ambiental, conservando la biodiversidad, quebradas y fuentes de agua, evitando la expansión urbana con todos sus problemas (plagas, basura, animales domésticos introducidos entre otros). Mediante la gestión con los gobiernos municipales, provinciales y central.
                     .</p>
-                
+
             </div>
         </div>
     </div>
@@ -96,7 +96,7 @@
             <div>
                 <h3>Objetivos Estrategicos</h3>
                 <p>Recuperar y fortalecer
-                    
+
                     la pertenencia cultural, a través de mejoras en los servicios de salud, educación, vivienda, vialidad, alumbrado público y seguridad de la población al igual que los espacios públicos de recreación y convivencia intercultural mediante actividades propias de parroquia, esto mediante la articulación con los otros gobiernos seccionales
                     .
                 </p>
@@ -113,9 +113,9 @@
                 <h3>¿Objetivos Estrategicos?</h3>
                 <p>
                     Propiciar actividades y acciones
-                    
+
                     concretas creando oportunidades laborales locales para el desarrollo productivo agrícola, turístico y comercial, garantizando los medios de producción (crédito, riego, suelo, centros de acopio, espacios para la comercialización) de manera sostenible para mejorar la calidad de vida de la población
-                    . 
+                    .
                 </p>
             </div>
         </div>
@@ -130,10 +130,10 @@
             <div class="swiper-slide">
                 <img class="client_img text-center"src="{{asset('/img/clientes/'.$cliente->image)}}" alt="{{$cliente->image}}" class="card-img-top">
             </div>
-            @endforeach  
+            @endforeach
         </div>
-    </div>   
-@endsection 
+    </div>
+@endsection
 @section('footer')
 <footer class="footer">
     <div class="l-footer">

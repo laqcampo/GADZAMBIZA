@@ -38,7 +38,7 @@
     <header>
     <a href="#" class="logo">
         <h2 style="color: white" class="imgtamaño"></h2>
-        <!--<img  class="imgtamaño" src="{{ asset('img/Logo_jldm.png')}}" alt="JLDM ! Proyects">-->
+        <!--<img  class="imgtamaño" src="{{ asset('img/Lturisticos/fondo')}}" alt="JLDM ! Proyects">-->
     </a>
     <div class="menu-toggle" ></div>
     <nav>
@@ -47,7 +47,7 @@
             <li><a  href="{{ url('/contact')}}">CONTÁCTENOS</a></li>
             <li><a href="{{ url('/sobrenosotros')}}">EQUIPO DE TRABAJO</a></li>
             <li><a  href="{{ url('/productos')}}">PRODUCTOS</a></li>
-            <li><a class="active" href="{{ url('/nosotros')}}">NOSOTROS</a></li>
+            <li><a class="active" href="{{ url('/nosotros')}}">LUGARES TURISTICOS</a></li>
             <li><a href="{{ url('/foto_galeria')}}">FOTO GALERÍA</a></li>
             <li><a href="{{ url('/login')}}">INICIAR SESION</a></li>
         </nav>
@@ -68,86 +68,7 @@
             </div>
         </div>
     </div>
-@endsection 
-@section('foda')
-<div class="nosotros_body">
-<div class="nosotros_container">
-    <div class="nosotros_card">
-        <div class="nosotros_imbBx"  data-text="¿Nuestra Misión?">
-            <i class="fas fa-5x fa-question"></i>
-        </div>
-        <div class="nosotros_content">
-            <div>
-                <h3>¿Nuestra Misión?</h3>
-                <p>En el 2019, la parroquia de Zámbiza es unida, con límites definidos, segura, saludable donde los ciudadanos acceden en igualdad de condiciones a los servicios básicos (energía, agua, saneamiento, salud, educación, tecnología) y a espacios verdes para la recreación.
-                </p>
-            </div>
-        </div>
-    </div>
-
-    <div class="nosotros_card">
-        <div class="nosotros_imbBx" data-text="¿Objetivos Estrategicos?">
-            <i class="fas fa-5x fa-user-friends"></i>
-        </div>
-        <div class="nosotros_content">
-            <div>
-                <h3>Objetivos Estrategicos</h3>
-                <p>
-                    Conservar de manera técnica
-                    
-                    los ecosistemas naturales, través de campañas de educación y protección ambiental, conservando la biodiversidad, quebradas y fuentes de agua, evitando la expansión urbana con todos sus problemas (plagas, basura, animales domésticos introducidos entre otros). Mediante la gestión con los gobiernos municipales, provinciales y central.
-                    .</p>
-                
-            </div>
-        </div>
-    </div>
-
-    <div class="nosotros_card">
-        <div class="nosotros_imbBx" data-text="¿Objetivos Estrategicos?">
-            <i class="fas fa-5x fa-chart-bar"></i>
-        </div>
-        <div class="nosotros_content">
-            <div>
-                <h3>Objetivos Estrategicos</h3>
-                <p>Recuperar y fortalecer
-                    
-                    la pertenencia cultural, a través de mejoras en los servicios de salud, educación, vivienda, vialidad, alumbrado público y seguridad de la población al igual que los espacios públicos de recreación y convivencia intercultural mediante actividades propias de parroquia, esto mediante la articulación con los otros gobiernos seccionales
-                    .
-                </p>
-            </div>
-        </div>
-    </div>
-
-    <div class="nosotros_card">
-        <div class="nosotros_imbBx" data-text="¿Objetivos Estrategicos?">
-            <i class="fas fa-5x fa-money-bill-wave"></i>
-        </div>
-        <div class="nosotros_content">
-            <div>
-                <h3>¿Objetivos Estrategicos?</h3>
-                <p>
-                    Propiciar actividades y acciones
-                    
-                    concretas creando oportunidades laborales locales para el desarrollo productivo agrícola, turístico y comercial, garantizando los medios de producción (crédito, riego, suelo, centros de acopio, espacios para la comercialización) de manera sostenible para mejorar la calidad de vida de la población
-                    . 
-                </p>
-            </div>
-        </div>
-    </div>
-</div>
-</div>
 @endsection
-@section('clientes')
-    <div class="swiper-container">
-        <div class="swiper-wrapper">
-            @foreach($clientes as $cliente)
-            <div class="swiper-slide">
-                <img class="client_img text-center"src="{{asset('/img/clientes/'.$cliente->image)}}" alt="{{$cliente->image}}" class="card-img-top">
-            </div>
-            @endforeach  
-        </div>
-    </div>   
-@endsection 
 @section('footer')
 <footer class="footer">
     <div class="l-footer">
@@ -200,18 +121,43 @@
 @section('title')
 <div class="col-12">
 		<div class="testimonial-title">
-			<h5>CLIENTES </h5>
-            <h3>QUE CONFÍAN EN NOSOTROS</h3>
+            <h3>LUGARES TURISTICOS</h3>
             <hr class="style1">
 	    </div>
-</div>
-@endsection
-@section('title2')
-<div class="col-12">
-		<div class="testimonial-title">
-			<h5>CONOCE</h5>
-            <h3>MÁS ACERCA DE NOSOTROS</h3>
-            <hr class="style1">
-	    </div>
+        <div class="container-fluid">
+       <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card">
+            <img src="{{ asset('img/Lturisticos/iglesia.jfif')}}" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">IGLESIA CENTRAL DE ZÁMBIZA</h5>
+              <p class="card-text">  Este es un templo que posee siglos de historia, ya que supera los 500 años de construcción. El templo acoge imágenes religiosas como Patrono al Arcángel San Miguel, imagen que fue entregada por una contribución del Rey Felipe II de España. En este lugar se conserva una imagen del “Señor del Árbol”, más antigua de la que tiene la Parroquia de Pomasqui.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+    <div class="card">
+      <img src="{{ asset('img/Lturisticos/pcentral.jpg.webp')}}" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">PARQUE CENTRAL DE ZÁMBIZA</h5>
+        <p class="card-text">
+ ​El núcleo central de Zámbiza, que anteriormente funcionaba como las instalaciones de una cancha deportiva, gracias a gestiones y apoyo de la población zambiceña se construye un espacio verde que ha recopilado diferentes historias desde hace varios años, lugar turístico que posee ocho jardineras y en el centro una escultura que representa a la mujer zambiceña llamada La Doña, la misma que fue elaborada por manos de un morador de nuestra parroquia.
+ Dentro del mismo se ha realizado varias intervenciones por parte de diferentes cuadrillas de limpieza del Municipio de Quito y Consejo Provincial, trabajos que han sido coordinadas por las autoridades del GAD Parroquial Zámbiza.
+
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="{{ asset('img/Lturisticos/parque.webp')}}" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">PARQUE INFANTIL DE ZÁMBIZA</h5>
+        <p class="card-text">
+            Fue creado en el año 2017 por parte de Gad Parroquial de Zámbiza en conjunto con el Municipio de Quito tiene juegos infantiles y una cancha de usos múltiples.
+        </p>
+      </div>
+    </div>
+  </div>
 </div>
 @endsection
