@@ -73,52 +73,6 @@
         </div>
     @endsection
 
-@section('cards_service')
-<div class="container_cards">
-    <div class="row_cards">
-        <div class="col-md-3 col-sm-6 mb-3 text-center">
-            <div class="single-content_service">
-                <div class="service">
-                    <i class="fas fa-percent fa-4x"></i>
-                    <h4 class="title_services">Ofertas del Día</h4>
-                    <p class="description_services">Ofertas especiales</p><br>
-                    <!--<a href="" class="btn_modal_wel mt-5" data-toggle="modal" data-target=".bd-example-modal-xl">Ver mas</a>-->
-                </div>
-            </div>
-        </div>
-        <div class="col-md-3 col-sm-6 mb-3 text-center">
-            <div class="single-content_service">
-                <div class="service">
-                    <i class="fas fa-shopping-cart fa-4x"></i>
-                    <h4 class="title_services">Entrega Inmediata</h4>
-                    <p class="description_services">Servicio de entrega inmediata</p><br>
-                    <!--<a href="" class="btn_modal_wel mt-5" data-toggle="modal" data-target=".bd-example-modal-xl2">Ver mas</a>-->
-                </div>
-            </div>
-        </div>
-        <div class="col-md-3 col-sm-6 mb-3 text-center">
-            <div class="single-content_service">
-                <div class="service">
-                    <i class="fas fa-user-check fa-4x"></i>
-                    <h4 class="title_services">Clientes Satisfechos</h4>
-                    <p class="description_services">Nuestros clientes felices con nuestro servicio</p>
-                    <!--<a href="{{ url('/nosotros')}}" class="btn_modal_wel mt-5">Ver mas</a>-->
-                </div>
-            </div>
-        </div>
-        <div class="col-md-3 col-sm-6 mb-3 text-center">
-            <div class="single-content_service">
-                <div class="service">
-                    <i class="fas fa-thumbs-up fa-4x"></i>
-                    <h4 class="title_services">Multiples Formas de Pago</h4>
-                    <p class="description_services">Diferentes tipos de pago</p>
-                    <!--<a href="" class="btn_modal_wel mt-5" data-toggle="modal" data-target=".bd-example-modal-xl">Ver mas</a>-->
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-@endsection
 @section('Content_messege')
 <div class="conatiner">
     <div class="form">
