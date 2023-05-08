@@ -161,23 +161,33 @@
                 </div>
             </div>
         </div>
+
+
+
+
         <div class="contact-form">
-            <form action="" autocomplete="off">
+            <form action="{{ url('/contact')}}" method="post" autocomplete="off">
+                @csrf
                 <h3 class="contact_tittle">COMUNÍCATE CON NOSOTROS</h3>
                 <div class="input-container ">
-                    <input type="text" name="name" class="contact_input" placeholder="NOMBRE">
+                    <input type="text" name="nombre" class="contact_input" placeholder="NOMBRE">
                 </div>
                 <div class="input-container">
                     <input type="text" name="email" class="contact_input" placeholder="EMAIL">
                 </div>
                 <div class="input-container">
-                    <input type="tel" name="celular" class="contact_input" placeholder="CELULAR">
+                    <input type="text" name="celular" class="contact_input" placeholder="CELULAR">
                 </div>
                 <div class="input-container">
                     <textarea name="mensaje" class="contact_input" id="" placeholder="MENSAJE"></textarea>
                 </div>
                 <input type="submit" value="ENVIAR" class="contact_btn">
             </form>
+             @if (session('info'))
+             <script>
+                  alert("{{session('info')}}")
+             </script>
+             @endif
         </div>
     </div>
 </div>

@@ -2,6 +2,8 @@
 
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\Auth;
+use App\Mail\ContactanosMailable;
+use Illuminate\Support\Facades\Mail;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -16,13 +18,14 @@ use Illuminate\Support\Facades\Auth;
 Route::get('/', 'PublicofertController@ofertas');
 Route::post('/login_validete', 'AutheticationController@loginvalidation')->name("login_validete");
 
-
-Route::get('/contact', function () {
-    return view('contact');
-});
-
+// esto para correos de contacto
+Route::get('/contact',  'ContactanosController@index');
+Route::post('/contact',  'ContactanosController@store');
+// fin correo contactos
 Route::get('/productos', 'StoreController@index');
 Route::get('/foto_galeria', 'FotosGaleriaController@obtenerVistaFotos');
+
+Route::get('/contactanos', [ContactanosController::class,'index'])->name('contactanos.index');
 
 
 Route::get('/sobrenosotros', 'NosotrosController@sobrenosotros');
