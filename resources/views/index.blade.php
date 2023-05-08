@@ -101,8 +101,8 @@
             <div class="single-content_service">
                 <div class="service">
                     <i class="fas fa-user-check fa-4x"></i>
-                    <h4 class="title_services">Clientes Satisfechos</h4>
-                    <p class="description_services">Nuestros clientes felices con nuestro servicio</p>
+                    <h4 class="title_services">Lugares Turísticos</h4>
+
                     <a href="{{ url('/nosotros')}}" class="btn_modal_wel mt-5">Ver mas</a>
                 </div>
             </div>
@@ -112,8 +112,8 @@
                 <div class="service">
                     <i class="fas fa-thumbs-up fa-4x"></i>
                     <h4 class="title_services">Nuestros Productos</h4>
-                    <p class="description_services">Diferentes tipos de pago</p>
-                    <a href="" class="btn_modal_wel mt-5" data-toggle="modal" data-target=".bd-example-modal-xl">Ver mas</a>
+
+                    <a href="{{ url('/productos')}}" class="btn_modal_wel mt-5" >Ver mas</a>
                 </div>
             </div>
         </div>
