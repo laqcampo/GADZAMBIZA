@@ -44,7 +44,7 @@
                     <div class="inner">
                         <h3>{{$cons_ofertas}}</h3>
 
-                        <p>Ofertas Del dia</p>
+                        <p>Cursos</p>
                     </div>
                     <div class="icon">
                         <i class="fas fa-cash-register"></i>

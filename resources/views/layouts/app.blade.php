@@ -152,7 +152,7 @@
                                 </a>
                             </li> 
 
-                            <li class="nav-item admin">
+                            <!-- <li class="nav-item admin">
                                 <a href="{{url('clientes/todas')}}"
                                     class="{{ Request::path() === 'clientes/todas' ? 'nav-link active' : 'nav-link' }}">
                                     <i class="text-info fas fa-user-friends"></i>
@@ -160,14 +160,14 @@
                                         Clientes
                                     </p>
                                 </a>
-                            </li>
+                            </li> -->
 
                             <li class="nav-item admin">
                                 <a href="{{url('proveedores')}}"
                                     class="{{ Request::path() === 'proveedores' ? 'nav-link active' : 'nav-link' }}">
-                                    <i class="text-info fas fa-user-friends"></i>
+                                    <i class="fa fa-bell" aria-hidden="true"></i>
                                     <p>
-                                        Proveedores
+                                        Ultimas noticias
                                     </p>
                                 </a>
                             </li>
@@ -175,9 +175,9 @@
                             <li class="nav-item admin">
                                 <a href="{{url('ofertas/todas')}}"
                                     class="{{ Request::path() === 'ofertas/todas' ? 'nav-link active' : 'nav-link' }}">
-                                    <i class="text-info fas fa-star"></i>
+                                    <i class="fa fa-list-alt" aria-hidden="true"></i>
                                     <p>
-                                        Oferta del dia
+                                        Cursos
                                     </p>
                                 </a>
                             </li>

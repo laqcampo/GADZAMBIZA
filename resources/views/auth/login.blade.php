@@ -105,7 +105,8 @@
             @csrf
                 <h3 class="contact_tittle">INGRESA TUS DATOS</h3>
                 <div class="input-container">
-                    <input id="email" type="email" class="form-control @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autocomplete="email" placeholder="EMAIL" autofocus>
+                <h1 class="contact_tittle">Email</h1>
+                    <input id="email" type="email" class="form-control @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autocomplete="email" placeholder="Ejemplo@zambiza.com" autofocus>
                         @error('email')
                             <span class="invalid-feedback" role="alert">
                                 <strong><h6 style="color:rgb(252, 9, 9);">{{ __('Por favor digite bien su usuario o contraseña') }}</h6></strong>
@@ -113,7 +114,8 @@
                         @enderror
                 </div>
                 <div class="input-container">
-                    <input id="password" type="password" class="form-control  @error('password') is-invalid @enderror" name="password" required  placeholder="CONTRASEÑA" autocomplete="current-password"
+                <h1 class="contact_tittle">Contraseña</h1>
+                    <input id="password" type="password" class="form-control  @error('password') is-invalid @enderror" name="password" required  placeholder="Ejemplo: 123abc" autocomplete="current-password"
                     minlength="5" maxlength="40" pattern="[A-Za-z0-9]+">
                 </div>
                 <input type="submit" value="LogIn" class="contact_btn">

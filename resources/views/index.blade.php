@@ -49,7 +49,7 @@
                 <li><a href="{{ url('/sobrenosotros')}}">EQUIPO DE TRABAJO</a></li>
                 <li><a  href="{{ url('/productos')}}">PRODUCTOS</a></li>
                 <li><a  href="{{ url('/nosotros')}}">NOSOTROS</a></li>
-                <li><a href="{{ url('/foto_galeria')}}">FOTO GALERÍA</a></li>
+                <li><a href="{{ url('/foto_galeria')}}">GALERÍA</a></li>
                 <li><a href="{{ url('/login')}}">INICIAR SESION</a></li>
 
             </ul>
@@ -80,9 +80,9 @@
         <div class="col-md-3 col-sm-6 mb-3 text-center">
             <div class="single-content_service">
                 <div class="service">
-                    <i class="fas fa-percent fa-4x"></i>
-                    <h4 class="title_services">Ofertas del Día</h4>
-                    <p class="description_services">Ofertas especiales</p><br>
+                <i class="fa fa-file-code-o" aria-hidden="true"></i>
+                    <h4 class="title_services">Punto de encuentro</h4>
+                    <p class="description_services">Cursos que se llevan a cabo en el Gobierno parroquial y tienen certificacion</p><br>
                     <a href="" class="btn_modal_wel mt-5" data-toggle="modal" data-target=".bd-example-modal-x3">Ver mas</a>  
                 </div>
             </div>
@@ -90,9 +90,9 @@
         <div class="col-md-3 col-sm-6 mb-3 text-center">
             <div class="single-content_service">
                 <div class="service">
-                    <i class="fas fa-shopping-cart fa-4x"></i>
-                    <h4 class="title_services">Entrega Inmediata</h4>
-                    <p class="description_services">Servicio de entrega inmediata</p><br>
+                <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                    <h4 class="title_services">Tradicion y cultura</h4>
+                    <p class="description_services">La Parroquia de Zambiza es cuna de tradicion y cultura</p><br>
                     <a href="" class="btn_modal_wel mt-5" data-toggle="modal" data-target=".bd-example-modal-xl2">Ver mas</a>  
                 </div>
             </div>
@@ -107,7 +107,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-md-3 col-sm-6 mb-3 text-center">
+         <div class="col-md-3 col-sm-6 mb-3 text-center">
             <div class="single-content_service">
                 <div class="service">
                     <i class="fas fa-thumbs-up fa-4x"></i>
@@ -127,9 +127,11 @@
             <div class="single-content">
                 <img src="{{ asset('img/categoria/cat1.jpg')}}" alt="Categorias Higienika Oficce Perú">
                 <div class="text-content">
-                    <h3>Eventos</h3>
+                    <h4>MISION</h4>
                     <hr class="style2">
-                    <h5>Detalle del evento a realizar</h5>
+                    <h6>Promover el ejercicio de los derechos de ciudadanos y ciudadanas,
+                         mediante la distribución equitativa de los ingresos, 
+                         creando nuevas oportunidades</h6>
                 </div>
             </div>
         </div>
@@ -137,9 +139,11 @@
             <div class="single-content">
                 <img src="{{ asset('img/categoria/cat2.jpg')}}" alt="Categorias Higienika Oficce Perú">
                 <div class="text-content">
-                    <h3>Artículos de Oficina</h3>
+                    <h5>VISION</h5>
                     <hr class="style2">
-                    <h5>Artículos de oficina de las mejores marcas</h5>
+                    <h6>Recuperar y fortalecer la pertenencia cultural, a través de mejoras
+                         en los servicios de salud, educación, vivienda, vialidad, 
+                         alumbrado público y seguridad</h6>
                 </div>
             </div>
         </div>
@@ -147,9 +151,12 @@
             <div class="single-content">
                 <img src="{{ asset('img/categoria/cat3.jpg')}}" alt="Categorias Higienika Oficce Perú">
                 <div class="text-content">
-                    <h3>Repuestos De Moviles</h3>
+                    <h5>EJES DE TRABAJO</h5>
                     <hr class="style2">
-                    <h5>Distribuimos Partes y repuestos</h5>
+                    <h6>
+                        <ul>Impulso al Desarrollo Productivo</ul>
+                        <ul>Economía Popular y Solidaria</ul>
+                        <ul>Rehabilitación y Mantenimiento de Sistemas de Riego</ul>
                 </div>
             </div>
         </div>
@@ -157,9 +164,14 @@
             <div class="single-content">
                 <img src="{{ asset('img/categoria/cat4.jpg')}}" alt="Categorias Higienika Oficce Perú">
                 <div class="text-content">
-                    <h3>Artículos de Laptops</h3>
+                    <h5>OBJETIVOS ESTRATEGICOS</h5>
                     <hr class="style2">
-                    <h5>Artículos Laptops de trabajo</h5>
+                    <h6>Propiciar actividades y acciones
+                    concretas creando oportunidades laborales 
+                    locales para el desarrollo productivo agrícola, 
+                    turístico y comercial, garantizando los medios de producción 
+                    (crédito, riego, suelo, centros de acopio, espacios para la comercialización)
+                     de manera sostenible para mejorar la calidad de vida de la población. </h6>
                 </div>
             </div>
         </div>
@@ -167,14 +179,14 @@
 </div>
 @endsection
 @section('title5')
-<div class="col-12 pt-2" style="background: #0781b6">
+<div class="col-12 pt-2">
 		<div class="proveedor-title">
-			<h5 style="color: black">CONOCE A</h5>
-            <h3 style="color: white">NUESTROS PROVEEDORES</h3>
-            <hr class="style5">
+            <h3 style="color: black">ULTIMAS NOTICIAS</h3>
+            <hr class="style1">
 	    </div>
 </div>
 @endsection
+
 @section('Proveedores')
 <div class="container_prove">
     <div class="carousel_prove">
@@ -185,9 +197,9 @@
         @foreach($proveedores as $proveedore)
         <div class="item">
             <div class="content">
-                <h1>{{$proveedore->name}}</h1>
+                <h3>{{$proveedore->name}}</h3>
                 <hr class="">
-                <h5 style="color: white">En Este segmento puedes poner una descripción de lo mas importante acerca de tus proveedores.</h5>
+                <h5 style="color: white">Aqui puedes ver novedades de Zambiza.</h5>
             </div>
             <div class="img">
                 <img src="{{asset('/img/proveedore/'.$proveedore->image)}}" alt="">
@@ -197,45 +209,10 @@
     </div>
 </div>
 @endsection
-@section('title2')
-<div class="col-12">
-		<div class="testimonial-title">
-			<h5>CONOCE</h5>
-            <h3>NUESTROS PRODUCTOS</h3>
-            <hr class="style1">
-	    </div>
-</div>
-@endsection
+
 
 @section('products')
 <div class="producst_body autoplay ">
-    @foreach($productos as $producto)
-    <div class="wrapper">
-        <div class="container">
-            <img class="top"src="{{asset('/img/productos/'.$producto->image)}}" alt="{{$producto->image}}">
-          <div class="bottom">
-            <div class="left">
-              <div class="details">
-                <h2 class="txt_products">{{$producto->name}}</h2>
-                <p>S/{{$producto->price}}</p>
-              </div>
-              <div class="buy text-center">
-                <a href="{{route('product-details', $producto->slug)}}">
-                    <i class="fas fa-eye"></i>
-                </a>  
-            </div>
-            </div>
-          </div>
-        </div>
-        <div class="inside">
-          <div class="icon"><i class="fas fa-plus"></i></div>
-          <div class="contents">
-            <h1>{{$producto->extract}}</h1>
-            <h5 style="color: white">{{$producto->descriptions}}</h5>
-          </div>
-        </div>
-      </div>
-    @endforeach 
 </div>
 @endsection
 
@@ -291,8 +268,8 @@
 @section('title')
 <div class="col-12">
 		<div class="testimonial-title">
-			<h5>CONOCE</h5>
-            <h3>NUESTRAS CATEGORÍAS</h3>
+			<h5></h5>
+            <h3>EL GAD</h3>
             <hr class="style1">
 	    </div>
 </div>
@@ -390,10 +367,15 @@
                 <img class="popou_img"src="{{ asset('img/entrega.jpg')}}" alt="">
             </div>       
             <div id="verde" class="content_pagos"> 
-                <h2 class=" frm_pagos text-center">REALIZAMOS DELIVERY ESPECIAL</h2>  
-                <hr class="style3">   
-                <h5>Primero se envía la cotización al cliente, luego de ello el cliente envía la orden de compra por medio de nuestro correo y a las 24 horas 
-                    se le realiza el envío de los productos dentro de Lima sin costo alguno, a provincia se aplica un adicional.</h5>                   
+                <h2 class=" frm_pagos text-center"></h2>  
+                <hr class="style3"> 
+                <h3>Fiestas de parroquialización</h3>  
+                <h5>Fiestas:Fiestas de parroquialización: 11 de febrero La celebración del aniversario de parroquialización, suele iniciar en enero y se extiende hasta febrero. Uno de los principales actos que se realizan es el Desfile de la Confraternidad, con el que se cierran las fiestas.
+                    <p></p>
+                    <p>Fiestas de patrono San Miguel:  29 de septiembre En las vísperas de las fiestas del patrono de la parroquia, por la noche, se desarrolla la quema de chamiza y castillo, desfiles, baile y música tradicional. Al siguiente día se puede disfrutar del tradicional albazo, los priostes sirven el desayuno a los disfrazados, a los cabecillas y fiesteros.</p>                
+                    <p></p>
+                </h5> 
+
             </div>
         </div>
     </div>
@@ -403,7 +385,7 @@
     <div class="modal-dialog modal-xl">
     <div class="modal-content">
         <div class="modal-header">
-            <h5 class="text-center modal-title" id="exampleModalCenterTitle">OFERTAS DEL DÍA</h5>
+            <h5 class="text-center modal-title" id="exampleModalCenterTitle">CURSOS</h5>
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
             </button>
@@ -417,6 +399,7 @@
                     <div id="verde" class="content_pagos"> 
                         <strong><h2 class=" frm_pagos text-center">{{$oferta->titulo}}</h2></strong>  
                         <br>    
+                        <br>
                         <h4>{{$oferta->texto}}</h4>  
                         <button type="button" class="btnwssp btn btn-outline-success btn-lg">
                             <a target="none" href="https://wa.me/51987654321?text=Hola%2CEstoy+interesad%40+en+la+oferta%3A+{{$oferta->titulo}}">
