@@ -55,7 +55,7 @@
             <!-- ./col -->
             <div class="col-lg-3 col-6">
                 <!-- small box -->
-                <div class="small-box bg-warning">
+                <!-- <div class="small-box bg-warning">
                     <div class="inner">
                         <h3>{{$cons_productos}}</h3>
 
@@ -67,10 +67,10 @@
                     <a href="#" class="small-box-footer">Más info <i class="fas fa-arrow-circle-right"></i></a>
                 </div>
             </div>
-            <!-- ./col -->
-            <div class="col-lg-3 col-6">
-                <!-- small box -->
-                <div class="small-box bg-danger">
+            ./col -->
+            <!-- <div class="col-lg-3 col-6">
+                 small box -->
+                <!-- <div class="small-box bg-danger">
                     <div class="inner">
                         <h3>{{$cons_clientes}}</h3> 
                         <p>Clientes</p>
@@ -80,7 +80,7 @@
                     </div>
                     <a href="#" class="small-box-footer">Más info <i class="fas fa-arrow-circle-right"></i></a>
                 </div>
-            </div>
+            </div>  -->
             <!-- ./col -->
         </div>
     </div>

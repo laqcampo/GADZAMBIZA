@@ -182,7 +182,7 @@
                                 </a>
                             </li>
 
-                            <li class="nav-item admin">
+                            <!-- <li class="nav-item admin">
                                 <a href="{{url('Categorias')}}"
                                     class="{{ Request::path() === 'Categorias' ? 'nav-link active' : 'nav-link' }}">
                                     <i class="text-info fas fa-shopping-bag"></i>
@@ -190,9 +190,9 @@
                                     Categorias de Producto
                                     </p>
                                 </a>
-                            </li>
+                            </li> -->
 
-                            <li class="nav-item admin">
+                            <!-- <li class="nav-item admin">
                                 <a href="{{url('producto')}}"
                                     class="{{ Request::path() === 'producto' ? 'nav-link active' : 'nav-link' }}">
                                     <i class="text-info fas fa-shopping-basket"></i>
@@ -202,7 +202,7 @@
                                         <span class="right badge badge-danger">{{ $product_count ?? '0' }}</span>
                                     </p>
                                 </a>
-                            </li>
+                            </li> -->
 
 
 
@@ -230,7 +230,7 @@
                                 </a>
                             </li> 
 
-                            <li class="nav-item admin">
+<!--                             <li class="nav-item admin">
                                 <a href="{{url('clientes/todas')}}"
                                     class="{{ Request::path() === 'clientes/todas' ? 'nav-link active' : 'nav-link' }}">
                                     <i class="text-info fas fa-user-friends"></i>
@@ -238,7 +238,7 @@
                                         Clientes
                                     </p>
                                 </a>
-                            </li>
+                            </li> -->
 
                             <li class="nav-item admin">
                                 <a href="{{url('proveedores')}}"
