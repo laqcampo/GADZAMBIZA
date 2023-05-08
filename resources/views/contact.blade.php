@@ -124,11 +124,11 @@
                 @csrf
                 <h3 class="contact_tittle">COMUNÍCATE CON NOSOTROS</h3>
                 <div class="input-container ">
-                    <input type="text" name="name" class="contact_input" placeholder="NOMBRE">
+                    <input type="text" name="nombre" class="contact_input" placeholder="NOMBRE">
                 </div>
                 <div class="input-container">
-                <h4 class="contact_tittle">Email</h4>
-                    <input type="text" name="email" class="form-control" placeholder="Ejemplo: juan@zambiza.com">
+                <h4 class="contact_tittle"></h4>
+                    <input type="text" name="email" class="contact_input" placeholder="Ejemplo: juan@zambiza.com">
                 </div>
                 <div class="input-container">
                     <input type="tel" name="celular" class="contact_input" placeholder="CELULAR">
