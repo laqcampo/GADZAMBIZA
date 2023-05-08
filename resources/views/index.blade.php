@@ -127,9 +127,11 @@
             <div class="single-content">
                 <img src="{{ asset('img/categoria/cat1.jpg')}}" alt="Categorias Higienika Oficce Perú">
                 <div class="text-content">
-                    <h3>MISION</h3>
+                    <h4>MISION</h4>
                     <hr class="style2">
-                    <h5>Detalle del evento a realizar</h5>
+                    <h6>Promover el ejercicio de los derechos de ciudadanos y ciudadanas,
+                         mediante la distribución equitativa de los ingresos,
+                         creando nuevas oportunidades</h6>
                 </div>
             </div>
         </div>
@@ -137,9 +139,11 @@
             <div class="single-content">
                 <img src="{{ asset('img/categoria/cat2.jpg')}}" alt="Categorias Higienika Oficce Perú">
                 <div class="text-content">
-                    <h3>VISION</h3>
+                    <h5>VISION</h5>
                     <hr class="style2">
-                    <h5>Artículos de oficina de las mejores marcas</h5>
+                    <h6>Recuperar y fortalecer la pertenencia cultural, a través de mejoras
+                         en los servicios de salud, educación, vivienda, vialidad,
+                         alumbrado público y seguridad</h6>
                 </div>
             </div>
         </div>
@@ -147,9 +151,12 @@
             <div class="single-content">
                 <img src="{{ asset('img/categoria/cat3.jpg')}}" alt="Categorias Higienika Oficce Perú">
                 <div class="text-content">
-                    <h3>EJES DE TRABAJO</h3>
+                    <h5>EJES DE TRABAJO</h5>
                     <hr class="style2">
-                    <h5>Distribuimos Partes y repuestos</h5>
+                    <h6>
+                        <ul>Impulso al Desarrollo Productivo</ul>
+                        <ul>Economía Popular y Solidaria</ul>
+                        <ul>Rehabilitación y Mantenimiento de Sistemas de Riego</ul>
                 </div>
             </div>
         </div>
@@ -157,9 +164,14 @@
             <div class="single-content">
                 <img src="{{ asset('img/categoria/cat4.jpg')}}" alt="Categorias Higienika Oficce Perú">
                 <div class="text-content">
-                    <h3>OBJETIVOS ESTRATEGICOS</h3>
+                    <h5>OBJETIVOS ESTRATEGICOS</h5>
                     <hr class="style2">
-                    <h5>Artículos Laptops de trabajo</h5>
+                    <h6>Propiciar actividades y acciones
+                    concretas creando oportunidades laborales
+                    locales para el desarrollo productivo agrícola,
+                    turístico y comercial, garantizando los medios de producción
+                    (crédito, riego, suelo, centros de acopio, espacios para la comercialización)
+                     de manera sostenible para mejorar la calidad de vida de la población. </h6>
                 </div>
             </div>
         </div>
@@ -167,14 +179,14 @@
 </div>
 @endsection
 @section('title5')
-<div class="col-12 pt-2" style="background: #0781b6">
+<div class="col-12 pt-2">
 		<div class="proveedor-title">
-			<h5 style="color: black">CONOCE A</h5>
-            <h3 style="color: white">NUESTROS PROVEEDORES</h3>
-            <hr class="style5">
+            <h3 style="color: black">ULTIMAS NOTICIAS</h3>
+            <hr class="style1">
 	    </div>
 </div>
 @endsection
+
 @section('Proveedores')
 <div class="container_prove">
     <div class="carousel_prove">
@@ -185,9 +197,9 @@
         @foreach($proveedores as $proveedore)
         <div class="item">
             <div class="content">
-                <h1>{{$proveedore->name}}</h1>
+                <h3>{{$proveedore->name}}</h3>
                 <hr class="">
-                <h5 style="color: white">En Este segmento puedes poner una descripción de lo mas importante acerca de tus proveedores.</h5>
+                <h5 style="color: white">Aqui puedes ver novedades de Zambiza.</h5>
             </div>
             <div class="img">
                 <img src="{{asset('/img/proveedore/'.$proveedore->image)}}" alt="">
@@ -197,15 +209,7 @@
     </div>
 </div>
 @endsection
-<!-- @section('title2')
-<div class="col-12">
-		<div class="testimonial-title">
-			<h5>CONOCE</h5>
-            <h3>NUESTROS PRODUCTOS</h3>
-            <hr class="style1">
-	    </div>
-</div>
-@endsection
+
 
 @section('products')
 <div class="producst_body autoplay ">
@@ -237,7 +241,7 @@
       </div>
     @endforeach
 </div>
-@endsection -->
+@endsection
 
 @section('footer')
 <footer class="footer">
@@ -292,7 +296,7 @@
 <div class="col-12">
 		<div class="testimonial-title">
 			<h5></h5>
-            <h3>CONOCE MEJOR EL GAD</h3>
+            <h3>EL GAD</h3>
             <hr class="style1">
 	    </div>
 </div>
